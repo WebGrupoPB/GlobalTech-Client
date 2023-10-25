@@ -6,6 +6,8 @@ import Categorias from './routes/Categorias.jsx'
 import Nosotros from './routes/Nosotros.jsx'
 import Servicios from './routes/Servicios.jsx'
 import Ubicaciones from './routes/Ubicaciones.jsx'
+import Maps from './components/Maps.jsx'
+
 
 import './index.css'
 
@@ -42,6 +44,10 @@ import {
   {
     path: "/servicios",
     element: <Servicios />,
+  },
+  {
+    path: "/maps",
+    element: <Maps />,
   },
 
  ]); 
