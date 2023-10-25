@@ -4,6 +4,8 @@ import Error from './routes/Error.jsx'
 import Catalogo from './routes/Catalogo.jsx'
 import Categorias from './routes/Categorias.jsx'
 import Nosotros from './routes/Nosotros.jsx'
+import Servicios from './routes/Servicios.jsx'
+import Ubicaciones from './routes/Ubicaciones.jsx'
 
 import './index.css'
 
@@ -32,6 +34,14 @@ import {
   {
     path: "/nosotros",
     element: <Nosotros />,
+  },
+  {
+    path: "/ubicaciones",
+    element: <Ubicaciones />,
+  },
+  {
+    path: "/servicios",
+    element: <Servicios />,
   },
 
  ]); 

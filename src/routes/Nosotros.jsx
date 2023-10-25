@@ -10,70 +10,6 @@ import CardSection from '../components/CardSection';
 import "./styles/Nosotros.scss"
 
 
-const cardInfo = [
-    {
-        id: 0,
-        text: "Aire Comprimido",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-0.png",
-    },
-    {
-        id: 1,
-        text: "Consumibles",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-1.png",
-    },
-    {
-        id: 2,
-        text: "Diagnostico",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-2.png",
-    },
-    {
-        id: 3,
-        text: "Didáctica",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-3.png",
-    },
-    {
-        id: 4,
-        text: "Elevación",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-4.png",
-    },
-    {
-        id: 5,
-        text: "Enderezado y Pintura",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-5.png",
-    },
-    {
-        id: 6,
-        text: "Equipo para bateías",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-6.png",
-    },
-    {
-        id: 7,
-        text: "Equipo para llantas",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-7.png",
-    },
-    {
-        id: 8,
-        text: "Herramientas",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-8.png",
-    },
-    {
-        id: 9,
-        text: "Lubricación y control de fluidos",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-9.png",
-    },
-    {
-        id: 10,
-        text: "Proyectos",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-10.png",
-    },
-    {
-        id: 11,
-        text: "Servicios post ventas",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Categorias/Cards-Categorias/card-image-11.png",
-    },
-]
-
-
 
 const Nosotros = () => {
 
@@ -95,7 +31,9 @@ const Nosotros = () => {
             </section>
 
             <div className='line-decoration-space'>
-                <div></div>
+                <aside>
+                    <div></div>
+                </aside>
             </div>
 
             <section className='quienesSomos-section'> 

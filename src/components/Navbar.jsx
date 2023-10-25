@@ -63,7 +63,9 @@ const Navbar = () => {
         <div className='background-decoration'></div>
         <nav className="navbar">
             <div className='navlogo-space'>
-                <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/Logo-GlobalTech.svg" alt="nav-logo-global" />
+                <Link to={"/"}>
+                  <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/Logo-GlobalTech.svg" alt="nav-logo-global" />
+                </Link>
             </div>
 
             <div className='navlinks-space'>
@@ -79,16 +81,16 @@ const Navbar = () => {
                     Catálogo
                 </NavLink>
 
-                <NavLink to={'/blog'} onClick={scrollToTop}>  
+                {/* <NavLink to={'/blog'} onClick={scrollToTop}>  
                     Blog
-                </NavLink>
+                </NavLink> */}
 
                 <NavLink to={'/nosotros'} onClick={scrollToTop}>  
                     Nosotros
                 </NavLink>
 
-                <NavLink to={'/galeria'} onClick={scrollToTop}>  
-                    Galeria
+                <NavLink to={'/ubicaciones'} onClick={scrollToTop}>  
+                    Ubicaciones
                 </NavLink>
             </div>
 
