@@ -1,0 +1,113 @@
+$btn-width: 100%;
+$btn-height: 100%;
+
+@mixin size($width, $height: null) {
+  width: $width;
+  height: $height;
+}
+
+@mixin absolute($top: null, $right: null, $bottom: null, $left: null) {
+  position: absolute;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+@keyframes criss-cross-left {
+  0% {
+    left: -20px;
+  }
+  50% {
+    left: 50%;
+    @include size(20px, 20px);
+  }
+  100% {
+    left: 50%;
+    @include size($btn-width * 1.5, $btn-height * 1.5);
+  }
+}
+
+@keyframes criss-cross-right {
+  0% {
+    right: -20px;
+  }
+  50% {
+    right: 50%;
+    @include size(20px, 20px);
+  }
+  100% {
+    right: 50%;
+    @include size($btn-width * 1.5, $btn-height * 1.5);
+  }
+}
+
+.btn-11 {
+    position: relative;
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #000;
+    overflow: hidden;
+  
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color: rgba(0, 0, 0, .25);
+      border-radius: 50%;
+    }
+  
+    &:before {
+      left: -20px;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    &:after {
+      right: -20px;
+      top: 50%;
+      transform: translate(50%, -50%);
+    }
+  
+    &:hover {
+        color: rgba(0, 0, 0, .2);
+
+  
+      &:before {
+        animation: criss-cross-left 0.8s both;
+        animation-direction: alternate;
+      }
+  
+      &:after {
+        animation: criss-cross-right 0.8s both;
+        animation-direction: alternate;
+      }
+    }
+  }
+
+  
+  
+
+a.btn-11 {
+  text-decoration: none;
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  display: grid;
+  place-items: center;
+  width: 9vw;
+  height: 7vh;
+  border: 1px solid #000;
+
+}
+
+a.btn-11:hover { 
+    color: rgba(0, 0, 0, .2);
+  }

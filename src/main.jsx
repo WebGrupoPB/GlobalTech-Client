@@ -16,6 +16,8 @@ import {
    createBrowserRouter,
    RouterProvider,
  } from "react-router-dom";
+import Facebook from './components/FacebookIframe.jsx'
+import BtnHover from './components/BtnHover.jsx'
 
 
  
@@ -46,8 +48,12 @@ import {
     element: <Servicios />,
   },
   {
-    path: "/maps",
-    element: <Maps />,
+    path: "/facebook",
+    element: <Facebook />,
+  },
+  {
+    path: "/btn",
+    element: <BtnHover />,
   },
 
  ]); 

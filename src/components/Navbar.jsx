@@ -1,7 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
+
 import './styles/Navbar.scss';
+
+
+
+
 
 
 
@@ -102,13 +107,14 @@ const Navbar = () => {
 
                 <div className='navservice-space'>
 
-                <NavLink to={'/empresas'} onClick={scrollToTop}>
-                        Empresas 
+                <NavLink to={'/empresas'} onClick={scrollToTop} className="btn-11">
+                    Empresas 
                 </NavLink>
 
-                <NavLink to={'/servicios'} onClick={scrollToTop}>                   
-                        Servicios                    
+                <NavLink to={'/servicios'} onClick={scrollToTop} className="btn-11">
+                    Servicios                    
                 </NavLink>
+
 
                 </div>
             </div>

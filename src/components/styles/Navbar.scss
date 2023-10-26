@@ -132,6 +132,10 @@ header.navbar-space {
                     
                     display: grid;
                     place-items: center;
+                    
+                    a:hover { 
+                        color: #fff;
+                    }
                 }
 
                 a:first-child { 

@@ -5,6 +5,7 @@ import Decoradores from '../components/Decoradores';
 import Navbar from '../components/Navbar';
 import Slider from '../components/Slider';
 import Footer from '../components/Footer';
+import Facebook from '../components/FacebookIframe';
 
 import "./styles/Home.scss"
 
@@ -20,6 +21,9 @@ const dataHero = [
 
 const Home = () => {
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
     return (
     <>
@@ -56,7 +60,9 @@ const Home = () => {
                   <p>-  Ancho entre columnas : 2.97 mt</p>
                 </div>
                 
-                <Link><span>Comprar</span></Link>
+                <Link to={"/catalogo"} onClick={scrollToTop} className="btn-11">
+                  <span>Comprar</span>
+                </Link>
               </div>
             </div>
 
@@ -75,7 +81,9 @@ const Home = () => {
               
 
               <div className='promocion2-textcontent'> 
-                <Link><span>ver catálogo</span></Link>
+                <Link to={"/catalogo"} onClick={scrollToTop} className="btn-11">
+                  <span>ver catálogo</span>
+                </Link>
               </div>
             </div>
 
@@ -90,7 +98,7 @@ const Home = () => {
 
         <section className='ubicaciones-section'>
             
-            <Link href="https://www.google.com/maps/search/Pass+fuel/@14.851027,-91.6473214,9z?entry=ttu" target='__blank' className='overlay-ubicaciones' >
+            <Link to={"/ubicaciones"} onClick={scrollToTop} target='__blank' className='overlay-ubicaciones' >
 
               <div className='text-container'>
                 <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/GPS-icon.svg" alt="gps-icon" />
@@ -124,7 +132,7 @@ const Home = () => {
                                       <input name='name' type="text" placeholder='nombre' />
                                       <input name='email' type='email' placeholder='correo' />
                                       <textarea name="message" id="" cols="30" rows="10" placeholder=' mensaje'></textarea>
-                                      <button type='submit'>Enviar</button>
+                                      <button type='submit' className="btn-11">Enviar</button>
                                   </form>
                               </div>
                           </div> 
@@ -197,6 +205,7 @@ const Home = () => {
                                 <h1>Facebook</h1>
                             </div>
                             
+                            <Facebook />
                         </aside>
                     </div>
                     

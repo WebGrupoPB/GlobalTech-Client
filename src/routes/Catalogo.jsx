@@ -14,6 +14,9 @@ import "./styles/Catalogo.scss"
 
 const Catalogo = () => {
 
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      };
 
     return (
     <>
@@ -78,7 +81,9 @@ const Catalogo = () => {
                             <p>-  Depósito de detergente</p>
                             </div>
                             
-                            <Link><span>Comprar</span></Link>
+                            <Link to={"/catalogo"} onClick={scrollToTop} className="btn-11">
+                                <span>Comprar</span>
+                            </Link>
                         </div>
                     </div>
 
