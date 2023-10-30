@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 
 import './styles/Navbar.scss';
@@ -7,15 +7,10 @@ import './styles/Navbar.scss';
 
 
 
-
-
-
-
-
-
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -74,15 +69,18 @@ const Navbar = () => {
             </div>
 
             <div className='navlinks-space'>
-                <NavLink to={'/'} onClick={scrollToTop}>  
+              <NavLink to={'/'} 
+                activeClassName="active"
+                onClick={scrollToTop}
+                > 
                     Inicio
                 </NavLink>
 
-                <NavLink to={'/categorias'} onClick={scrollToTop}>  
+                <NavLink to={'/categorias'} activeClassName="active" onClick={scrollToTop}>  
                     Categorías
                 </NavLink>
 
-                <NavLink to={'/catalogo'} onClick={scrollToTop}>  
+                <NavLink to={'/catalogo'} activeClassName="active" onClick={scrollToTop}>  
                     Catálogo
                 </NavLink>
 
@@ -90,11 +88,11 @@ const Navbar = () => {
                     Blog
                 </NavLink> */}
 
-                <NavLink to={'/nosotros'} onClick={scrollToTop}>  
+                <NavLink to={'/nosotros'} activeClassName="active" onClick={scrollToTop}>  
                     Nosotros
                 </NavLink>
 
-                <NavLink to={'/ubicaciones'} onClick={scrollToTop}>  
+                <NavLink to={'/ubicaciones'} activeClassName="active"  onClick={scrollToTop}>  
                     Ubicaciones
                 </NavLink>
             </div>
@@ -107,11 +105,11 @@ const Navbar = () => {
 
                 <div className='navservice-space'>
 
-                <NavLink to={'/empresas'} onClick={scrollToTop} className="btn-11">
+                <NavLink to={'/empresas'} activeClassName="active" onClick={scrollToTop} className="btn-11">
                     Empresas 
                 </NavLink>
 
-                <NavLink to={'/servicios'} onClick={scrollToTop} className="btn-11">
+                <NavLink to={'/servicios'} activeClassName="active" onClick={scrollToTop} className="btn-11">
                     Servicios                    
                 </NavLink>
 

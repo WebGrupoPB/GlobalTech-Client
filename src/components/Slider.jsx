@@ -117,7 +117,7 @@ const Slider = ({ dataSlider, panelInfo }) => {
     
   });
 
-  const updateWrapperStyle = () => {
+  /* const updateWrapperStyle = () => {
     let styles = {
       backgroundImage: `url('${dataSlider[activeID].img}')`,
     };
@@ -128,7 +128,7 @@ const Slider = ({ dataSlider, panelInfo }) => {
     
   
     setWrapperStyle(styles);
-  };
+  }; */
 
     
      // Llama a la función para actualizar los estilos cuando cambie panelInfo
@@ -153,7 +153,7 @@ const Slider = ({ dataSlider, panelInfo }) => {
 
 
   // script que define el cambio de id del slider por periodos de tiempo 
-  /* useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(() => {
       const nextID = (activeID + 1) % dataSlider.length;
       changeActive(nextID);
@@ -162,7 +162,7 @@ const Slider = ({ dataSlider, panelInfo }) => {
     return () => {
       clearInterval(interval); 
     };
-  }, [activeID]); */ // Se ejecuta cada vez que activeID cambia
+  }, [activeID]); // Se ejecuta cada vez que activeID cambia
 
 
   return (

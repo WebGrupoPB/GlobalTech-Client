@@ -41,7 +41,23 @@ const Nosotros = () => {
                     <article className='articulo-space'>
                         <h1>¿Quienes somos?</h1>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget quam nec velit commodo tristique. Vivamus accumsan odio auctor tortor pulvinar, a dignissim turpis interdum. Duis tristique dui non magna viverra, id sollicitudin lorem feugiat. Fusce a efficitur urna. Aliquam volutpat, justo nec malesuada interdum, justo tortor luctus velit, eget tempus metus enim sed libero. Suspendisse potenti. Sed in dignissim justo. Nullam dictum fermentum volutpat. Integer eu lacus eu nulla malesuada rhoncus. Nulla facilisi.</p>
+                        <p>
+                            Gobal Tech es una empresa dedicada a la
+                            comercialización y venta de equipos y herramientas 
+                            especializadas para taller.
+                        </p>
+                        <p>
+                            Contamos con marcas reconocidas a nivel
+                            internacional, que nos brinda garantía de
+                            fábrica que todos nuestros equipos cuenta
+                            con el respaldo necesario para las instrucciones de uso, optimización de recursos,
+                            instalación, ejecución y garantía.
+                        </p>
+                        <p>     
+                            Actualmente Global Tech se encuentra pre-
+                            sente en Guatemala, El Salvador, Honduras,
+                            Nicaragua, Costa Rica.
+                        </p>
                     </article>
 
                     <aside className='imagen-space'>

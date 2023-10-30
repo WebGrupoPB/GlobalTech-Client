@@ -131,6 +131,9 @@ aside.panel {
 	0% {
 		opacity: 0;
 	}
+	50% { 
+		opacity: 0.5;
+	}
 	100% {
 		opacity: 1;
 	}
@@ -145,10 +148,562 @@ div.overlay-wrapper {
 	height: 100%;
 }
 
-img.icons-banner {
-	position: relative;
-	right: 10%;
+
+
+/*************** Pantallas Grandes Desktop, TV, < 2000px *******************/
+@media (min-width: 2000px) and (orientation: landscape) {
+
+	section.wrapper {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+		
+		transition: background-image 700ms ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+	}
 	
-	width: auto;
-	height: 60vh;
+	aside.panel {
+		background-color: rgba(225, 225, 255, 0.8);
+		backdrop-filter: blur(3px);
+		width: 48vw;
+		height: 95%;
+		
+		border-radius: 0px 25rem 0px 0px;
+		border: 2px solid #FFF;
+		
+		transition: background 700ms ease-in-out;
+	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1;
+	
+		position: relative;
+		left: 2vw;
+	
+		
+		div.infoHeroHome-content { 
+			width: 100%;
+			height: 100%;
+	
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			justify-content: start;
+	
+			gap: 1vh;
+	
+			position: relative;
+	
+	
+			div.title-content { 
+				/* background-color: blue; */
+				width: 70%;
+				height: 15vh;
+				margin-top: 5vh;
+				margin-left: 2vw;
+	
+				h1 { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 4rem;
+					font-style: normal;
+					font-weight: 800;
+					line-height: 124%;
+				}
+			}
+	
+	
+			div.parrafo-content {
+				/* background-color: yellow;  */
+				width: 80%;
+				height: 25vh;
+				margin-top: 5vh;
+				margin-left: 2vw;
+	
+				p { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 2.4rem;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 124%; /* 24.8px */
+				}
+			}
+	
+	
+			aside.decoration-content { 
+				/* background-color: blue; */
+				width: 50vw;
+				height: 98%;
+	
+				position: absolute;
+				bottom: 0;
+				right: -2vw;
+	 
+				border-right: 16px solid #EA4731;
+				/* border-top: 8px solid #EA4731; */
+				border-radius: 0rem 21rem 0rem 0rem ;
+				
+			}
+		}
+	}
+	
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	
+	div.overlay-wrapper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.3);
+		width: 100%;
+		height: 100%;
+	}
+	
+	img.icons-banner {
+		position: relative;
+		right: 10%;
+		
+		width: auto;
+		height: 60vh;
+	}
+}
+
+/*************** Pantallas laptop, > 1024px *******************/
+@media (max-width: 1024px) and (orientation: landscape) {
+	section.wrapper {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+		
+		transition: background-image 700ms ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+	}
+	
+	aside.panel {
+		background-color: rgba(225, 225, 255, 0.8);
+		backdrop-filter: blur(3px);
+		width: 48vw;
+		height: 95%;
+		
+		border-radius: 0px 16rem 0px 0px;
+		border: 2px solid #FFF;
+		
+		transition: background 700ms ease-in-out;
+	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1;
+	
+		position: relative;
+		left: 2vw;
+	
+		
+		div.infoHeroHome-content { 
+			width: 100%;
+			height: 100%;
+	
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			justify-content: start;
+	
+			gap: 1vh;
+	
+			position: relative;
+	
+	
+			div.title-content { 
+				/* background-color: blue; */
+				width: 70%;
+				height: 15vh;
+				margin-top: 5vh;
+				margin-left: 2vw;
+	
+				h1 { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 1.5rem;
+					font-style: normal;
+					font-weight: 800;
+					line-height: 124%;
+				}
+			}
+	
+	
+			div.parrafo-content {
+				/* background-color: yellow;  */
+				width: 80%;
+				height: 25vh;
+				margin-top: 5vh;
+				margin-left: 2vw;
+	
+				p { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 1rem;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 124%; /* 24.8px */
+				}
+			}
+	
+	
+			aside.decoration-content { 
+				/* background-color: blue; */
+				width: 50vw;
+				height: 98%;
+	
+				position: absolute;
+				bottom: 0;
+				right: -2vw !important;
+	
+				border-right: 8px solid #EA4731;
+				/* border-top: 8px solid #EA4731; */
+				border-radius: 0rem 13rem 0rem 0rem ;
+				
+			}
+		}
+	}
+}
+
+/*************** Pantallas tablet, > 900px *******************/
+@media (max-width: 900px) and (orientation: portrait) {
+	section.wrapper {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+		/* background-size: cover;
+		background-position-x: center; 
+		background-position-y: center; */
+		
+		transition: background-image 700ms ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+	}
+	
+	aside.panel {
+		background-color: rgba(225, 225, 255, 0.8);
+		backdrop-filter: blur(3px);
+		width: 48vw;
+		height: 95%;
+		
+		border-radius: 0px 12rem 0px 0px;
+		border: 2px solid #FFF;
+		
+		transition: background 700ms ease-in-out;
+	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1;
+	
+		position: relative;
+		left: 2vw;
+	
+		
+		div.infoHeroHome-content { 
+			width: 100%;
+			height: 100%;
+	
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+			justify-content: start;
+	
+			gap: 0vh;
+	
+			position: relative;
+	
+	
+			div.title-content { 
+				/* background-color: blue; */
+				width: 70%;
+				height: 10vh;
+				margin-top: 3vh;
+				margin-left: 2vw;
+	
+				h1 { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 1.2rem;
+					font-style: normal;
+					font-weight: 800;
+					line-height: 124%;
+				}
+			}
+	
+	
+			div.parrafo-content {
+				/* background-color: yellow; */ 
+				width: 80%;
+				height: 20vh;
+				margin-top: 0vh;
+				margin-left: 2vw;
+	
+				p { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 1rem;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 124%; /* 24.8px */
+				}
+			}
+	
+	
+			aside.decoration-content { 
+				/* background-color: blue; */
+				width: 50vw;
+				height: 98%;
+	
+				position: absolute;
+				bottom: 0;
+				right: -3vw !important;
+	
+				border-right: 8px solid #EA4731;
+				/* border-top: 8px solid #EA4731; */
+				border-radius: 0rem 10rem 0rem 0rem ;
+				
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) and (orientation: portrait) {
+	section.wrapper {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: 200% 100%;
+		background-position-x: center; 
+		background-position-y: center;
+		
+		transition: background-image 700ms ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	}
+	
+	aside.panel {
+		background-color: rgba(225, 225, 255, 0.8);
+		backdrop-filter: blur(1px);
+		width: 85vw;
+		height: 85%;
+		
+		border-radius: 0px 0rem 0px 0px;
+		border: 2px solid #FFF;
+		
+		transition: background 700ms ease-in-out;
+	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1;
+	
+		position: relative;
+		left: 0vw;
+	
+		
+		div.infoHeroHome-content { 
+			width: 100%;
+			height: 100%;
+	
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: start;
+	
+			gap: 15vh;
+	
+			position: relative;
+	
+	
+			div.title-content { 
+				/* background-color: blue; */
+				width: 70%;
+				height: 10vh;
+				margin-top: 0vh;
+				margin-left: 0vw;
+	
+				h1 { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 2rem;
+					font-style: normal;
+					font-weight: 800;
+					line-height: 124%;
+					text-align: center;
+				}
+			}
+	
+	
+			div.parrafo-content {
+				/* background-color: yellow; */ 
+				width: 80%;
+				height: 20vh;
+				margin-top: 0vh;
+				margin-left: 0vw;
+	
+				p { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 1.2rem;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 124%; /* 24.8px */
+					text-align: center;
+				}
+			}
+	
+	
+			aside.decoration-content { 
+				/* background-color: blue; */
+				width: 90vw;
+				height: 68vh;
+	
+				position: absolute;
+				bottom: -3vh;
+				right: -3vw !important;
+	
+				border-top: 8px solid #EA4731;
+				border-bottom: 8px solid #EA4731;
+				border-right: 0px solid #EA4731;
+				border-radius: 0rem 0rem 0rem 0rem ;
+
+				/* display: none; */
+				
+			}
+		}
+	}
+}
+
+
+@media (max-width: 320px) and (orientation: portrait) {
+	section.wrapper {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-size: 200% 100%;
+		background-position-x: center; 
+		background-position-y: center;
+		
+		transition: background-image 700ms ease-in-out;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	}
+	
+	aside.panel {
+		background-color: rgba(225, 225, 255, 0.8);
+		backdrop-filter: blur(1px);
+		width: 85vw;
+		height: 85%;
+		
+		border-radius: 0px 0rem 0px 0px;
+		border: 2px solid #FFF;
+		
+		transition: background 700ms ease-in-out;
+	
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1;
+	
+		position: relative;
+		left: 0vw;
+	
+		
+		div.infoHeroHome-content { 
+			width: 100%;
+			height: 100%;
+	
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: start;
+	
+			gap: 12vh;
+	
+			position: relative;
+	
+	
+			div.title-content { 
+				/* background-color: blue; */
+				width: 70%;
+				height: 10vh;
+				margin-top: 0vh;
+				margin-left: 0vw;
+	
+				h1 { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 1.5rem;
+					font-style: normal;
+					font-weight: 800;
+					line-height: 124%;
+					text-align: center;
+				}
+			}
+	
+	
+			div.parrafo-content {
+				/* background-color: yellow; */ 
+				width: 80%;
+				height: 20vh;
+				margin-top: 0vh;
+				margin-left: 0vw;
+	
+				p { 
+					color: #000;
+					font-family: "Poppins", sans-serif;
+					font-size: 1rem;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 124%; /* 24.8px */
+					text-align: center;
+				}
+			}
+	
+	
+			aside.decoration-content { 
+				/* background-color: blue; */
+				width: 90vw;
+				height: 68vh;
+	
+				position: absolute;
+				bottom: -3.5vh;
+				right: -2vw !important;
+	
+				border-top: 8px solid #EA4731;
+				border-bottom: 8px solid #EA4731;
+				border-right: 0px solid #EA4731;
+				border-radius: 0rem 0rem 0rem 0rem ;
+
+				/* display: none; */
+				
+			}
+		}
+	}
 }

@@ -4,8 +4,8 @@
 
 ******************************************************************/
 
-/*************** Pantallas laptop L, 1024px *******************/
-@media (max-width: 1440px) {
+/*************** Pantallas laptop L, 1440px *******************/
+@media (max-width: 1999px) and (orientation: landscape) {
 
  }   
 header.navbar-space {
@@ -81,6 +81,29 @@ header.navbar-space {
                 font-family: Arial, sans-serif;
                 font-size: 1rem;
                 font-weight: 500;
+                
+
+                &.hover{
+                    color: #fff;
+                }
+                
+                &.active {
+                    text-decoration: underline;
+                    text-decoration-color: rgb(0, 0, 0) !important;
+                    text-decoration-thickness: 4px;
+                    text-decoration-line: underline;
+                    text-underline-offset: 12px;
+                    color: #fff;
+                    background-clip: text; 
+                    background-image: linear-gradient(
+                      to bottom,
+                      rgba(0, 0, 0, 1) 100%,
+                      rgba(0, 0, 0, 1) 100%,
+                    );
+                    padding: 4px 0px; 
+                    
+                    transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+                  }
             }
         }
 
@@ -133,29 +156,254 @@ header.navbar-space {
                     display: grid;
                     place-items: center;
                     
-                    a:hover { 
+                    &.hover{
                         color: #fff;
                     }
+                    
+                    &.active {
+                        text-decoration: underline;
+                        text-decoration-color: rgb(0, 0, 0) !important;
+                        text-decoration-thickness: 3px;
+                        text-underline-offset: 8px;
+                        color: #fff;
+                        background-clip: text; 
+                        background-image: linear-gradient(
+                          to bottom,
+                          rgba(0, 0, 0, 1) 100%,
+                          rgba(0, 0, 0, 1) 100%
+                        ); 
+                        
+                        transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+                      }
+
+                    
                 }
+
+                
 
                 a:first-child { 
                     width: 9vw;
                     height: 7vh;
                     border: 1px solid #000;
+
+                    /* &:hover{
+                        color: #fff;
+                    } */
                 }
 
                 a:last-child { 
                     width: 15vw;
                     height: 7vh;
                     border: 1px solid #000;
+
+                    /* &:hover{
+                        color: #fff;
+                    } */
                 }
             }
         }
         }
-
-
-
 }
+
+
+/*************** Pantallas Grandes Desktop, TV, < 2000px *******************/
+@media (min-width: 2000px) and (orientation: landscape) {
+
+header.navbar-space {
+    border-bottom: 2px solid #000;
+
+   nav.navbar {
+       /* background-color: gray; */
+       width: 95%;
+       height: 100%;
+       padding: 0px;
+
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   
+       z-index: 1;
+
+       div.navlinks-space { 
+
+           a {
+               font-size: 2rem;  
+               
+               &.active {
+
+                   text-decoration-thickness: 8px;
+                   text-underline-offset: 20px;
+                   padding: 4px 0px; 
+                 }
+           }
+       }
+
+       div.navstore-space { 
+
+           div.line-separacion { 
+               width: 4px;
+               box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+           }
+
+           div.navprofile-space { 
+               /* background-color: yellow; */
+               width: 50%;
+               height: 100%;
+           }
+
+           div.navservice-space{
+               /* background-color: red; */
+               width: 50%;
+               height: 100%;
+
+               display: flex;
+               align-items: center;
+               justify-content: center;
+
+               gap: 1vw;
+
+               a {
+                   font-size: 2rem;
+                   
+                   &.hover{
+                       color: #fff;
+                   }
+                   
+                   &.active {
+
+                       text-decoration-thickness: 8px;
+                       text-underline-offset: 20px;
+                       
+                     }
+
+                   
+               }
+
+               
+
+               a:first-child { 
+                   width: 9vw;
+                   height: 7vh;
+                   border: 2px solid #000;
+
+                   /* &:hover{
+                       color: #fff;
+                   } */
+               }
+
+               a:last-child { 
+                   width: 15vw;
+                   height: 7vh;
+                   border: 2px solid #000;
+
+                   /* &:hover{
+                       color: #fff;
+                   } */
+               }
+           }
+       }
+       }
+}
+} 
+
+/*************** Pantallas laptop, > 1024px *******************/
+@media (max-width: 1024px) and (orientation: landscape) {
+
+    header.navbar-space {
+        border-bottom: 1px solid #000;
+    
+       nav.navbar {
+           /* background-color: gray; */
+           width: 95%;
+           height: 100%;
+           padding: 0px;
+    
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+       
+           z-index: 1;
+    
+           div.navlinks-space { 
+    
+               a {
+                   font-size: .8rem;  
+                   
+                   &.active {
+                       text-decoration-thickness: 4px;
+                       text-underline-offset: 10px;
+                       padding: 4px 0px; 
+                     }
+               }
+           }
+    
+           div.navstore-space { 
+    
+               div.line-separacion { 
+                   width: 2px;
+                   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+               }
+    
+               div.navprofile-space { 
+                   /* background-color: yellow; */
+                   width: 50%;
+                   height: 100%;
+               }
+    
+               div.navservice-space{
+                   /* background-color: red; */
+                   width: 50%;
+                   height: 100%;
+    
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+    
+                   gap: 1vw;
+    
+                   a {
+                       font-size: .8rem;
+                       
+                       &.hover{
+                           color: #fff;
+                       }
+                       
+                       &.active {
+    
+                           text-decoration-thickness: 4px;
+                           text-underline-offset: 10px;
+                           
+                         }
+    
+                       
+                   }
+    
+                   
+    
+                   a:first-child { 
+                       width: 9vw;
+                       height: 7vh;
+                       border: 1px solid #000;
+    
+                       /* &:hover{
+                           color: #fff;
+                       } */
+                   }
+    
+                   a:last-child { 
+                       width: 15vw;
+                       height: 7vh;
+                       border: 1px solid #000;
+    
+                       /* &:hover{
+                           color: #fff;
+                       } */
+                   }
+               }
+           }
+           }
+    }
+    } 
 
 
 

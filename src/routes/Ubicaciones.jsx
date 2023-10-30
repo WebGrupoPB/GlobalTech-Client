@@ -38,7 +38,7 @@ const Ubicaciones = () => {
 
     if (guateUbi) {
         ubicacionRequerida = 0; // Asigna 0 a la variable si guateUbi es verdadero
-        ubicacionText = "Calz. Atanasio Tzul 20-74, Cdad. de Guatemala 01012"
+        ubicacionText = "Calz. Atanasio Tzul 20-11 Zona 12, Guatemala"
     } else if (xelaUbi) {
         ubicacionRequerida = 1; // Asigna 1 a la variable si xelaUbi es verdadero
         ubicacionText = "4 calle 19-29 zona 3 Quetzaltenango, Guatemala"
@@ -70,7 +70,7 @@ const Ubicaciones = () => {
                 <div className='mapUbi-space'>
                     <header className='filtro-mapUbi-space'>
                         <div className='btn-filtro-space'>
-                            <button className='btn-filtro' onClick={() => toggleContent(1)}>
+                            <button className='btn-filtro btn-11' onClick={() => toggleContent(1)}>
                                 <div>
                                     <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/GPS-icon.svg" alt="gps-icon" />
                                 </div>
@@ -80,7 +80,7 @@ const Ubicaciones = () => {
                                 </span>
                             </button>
 
-                            <button className='btn-filtro' onClick={() => toggleContent(2)}>
+                            <button className='btn-filtro btn-11' onClick={() => toggleContent(2)}>
                                 <div>
                                     <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/GPS-icon.svg" alt="gps-icon" />
                                 </div>
