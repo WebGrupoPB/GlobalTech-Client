@@ -76,7 +76,7 @@ const Home = () => {
           <div className='promocion2-space'>
             <div className='promocion2-textcontent-space'>
               <div className='promocion2-titlecontent'>
-                <h1>Todo lo que necesitas para tu taller</h1>
+                <h1>Soluciones integrales para tu taller</h1>
               </div>
               
 
@@ -118,6 +118,8 @@ const Home = () => {
 
             </Link>
           </section>
+
+          <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/separador-global.png" alt="separador-global" className='separador-global' id='about'/>
 
           <section className='contacto-section' id='contacto'>
                     <div className='contacto-area'>

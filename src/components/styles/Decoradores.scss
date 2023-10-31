@@ -164,7 +164,7 @@
 }
     
     
-    /*************** Pantallas Laptop, 1024px *******************/
+/*************** Pantallas Laptop, 1024px *******************/
 @media (max-width: 1024px) {
   .social-media { 
     /* background-color: blue; */
@@ -229,6 +229,90 @@
         p {
           margin-left: 12px;
           font-size: .8rem;
+        }
+      }
+          
+      .trianguleBubble {
+      
+      position: relative;
+      top: 55%;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent; /* Lado izquierdo transparente */
+      border-bottom: 10px solid transparent; /* Lado derecho transparente */
+      border-left: 20px solid #fff; /* Lado inferior sólido (el color define el color del triángulo) */
+      }  
+    }   
+  }
+}
+
+
+/*************** Pantallas Laptop, 900px *******************/
+@media (max-width: 900px) and (orientation: portrait) {
+  .social-media { 
+    /* background-color: blue; */
+    width: 7rem;
+    height: 17rem;
+    position: fixed;
+    bottom: 0vh;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    z-index: 2;
+
+    
+    .circle-icon {
+      background-color: #fff;
+      width: 5.5rem;
+      height: 5.5rem;
+      margin: 5px 0;
+      border: 4px solid rgb(252,  193, 44);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      img {
+        width: 5rem;
+        height: 5rem;
+        }
+        
+        
+      .whatsappIcon {
+        width: 5.25rem !important;
+        height: 5.25rem !important;
+      }
+    }
+      
+      
+    .bubbleChat {
+      position: absolute;
+      bottom: 15%;
+      left: -220%;  
+      width: 15rem;
+      height: 6rem;
+      /* border: 1px solid red; */
+      display: flex;
+        
+      .squareBubble {
+        background-color: #fff;
+        width: 15rem;
+        height: 6rem;
+        /* border: 1px solid #000; */
+        border-radius: 8px;
+        line-height: 1px;
+        text-align: left;
+  
+        h4 {
+          margin-left: 12px;
+          font-size: 1.5rem;
+        }
+          
+        p {
+          margin-left: 12px;
+          font-size: 1rem;
         }
       }
           

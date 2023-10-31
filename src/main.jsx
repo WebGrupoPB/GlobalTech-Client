@@ -18,6 +18,7 @@ import {
  } from "react-router-dom";
 import Facebook from './components/FacebookIframe.jsx'
 import BtnHover from './components/BtnHover.jsx'
+import Navbar from './components/Navbar.jsx'
 
 
  
@@ -54,6 +55,10 @@ import BtnHover from './components/BtnHover.jsx'
   {
     path: "/btn",
     element: <BtnHover />,
+  },
+  {
+    path: "/navbar",
+    element: <Navbar />,
   },
 
  ]); 

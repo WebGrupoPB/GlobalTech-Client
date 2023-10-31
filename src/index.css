@@ -26,3 +26,16 @@ body {
   width: 100%;
   height: 5vh;
 }
+
+/*************** Pantallas tablet, > 900px *******************/
+@media (max-width: 900px) and (orientation: portrait) { 
+  .header-navbar { 
+    width: 100%;
+    height: 24vh !important;
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+    position: sticky;
+    top: 0;
+    }
+}

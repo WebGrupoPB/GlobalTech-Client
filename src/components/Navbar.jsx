@@ -10,7 +10,6 @@ import './styles/Navbar.scss';
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
-  const location = useLocation();
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -61,7 +60,7 @@ const Navbar = () => {
   return (
     <header className='navbar-space'>
         <div className='background-decoration'></div>
-        <nav className="navbar">
+        <nav className="navbar-Desktop">
             <div className='navlogo-space'>
                 <Link to={"/"}>
                   <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/Logo-GlobalTech.svg" alt="nav-logo-global" />
@@ -116,6 +115,77 @@ const Navbar = () => {
 
                 </div>
             </div>
+        </nav>
+
+        
+        <nav className="navbar-Movil">
+            <div className='blankSpace-nav'>
+
+            </div>
+
+            <div className='navlogo-space'>
+                <Link to={"/"}>
+                  <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/Logo-GlobalTech.svg" alt="nav-logo-global" />
+                </Link>
+            </div>
+
+            <div className='menuIcon-space'>
+              <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/menuIcon.svg" alt="tuercaIcon" onClick={toggleMenu} />
+            </div>
+
+            {menuOpen && (
+              <aside className='menuMovil-space'>
+                <div className='navlinks-space'>
+                  <NavLink to={'/'} 
+                    activeClassName="active"
+                    onClick={scrollToTop}
+                    > 
+                        Inicio
+                    </NavLink>
+
+                    <NavLink to={'/categorias'} activeClassName="active" onClick={scrollToTop}>  
+                        Categorías
+                    </NavLink>
+
+                    <NavLink to={'/catalogo'} activeClassName="active" onClick={scrollToTop}>  
+                        Catálogo
+                    </NavLink>
+
+                    {/* <NavLink to={'/blog'} onClick={scrollToTop}>  
+                        Blog
+                    </NavLink> */}
+
+                    <NavLink to={'/nosotros'} activeClassName="active" onClick={scrollToTop}>  
+                        Nosotros
+                    </NavLink>
+
+                    <NavLink to={'/ubicaciones'} activeClassName="active"  onClick={scrollToTop}>  
+                        Ubicaciones
+                    </NavLink>
+                </div>
+
+                <div className='navstore-space'>
+                    <div className='line-separacion'></div>
+                    <div className='navprofile-space'>
+
+                    </div>
+
+                    <div className='navservice-space'>
+
+                    <NavLink to={'/empresas'} activeClassName="active" onClick={scrollToTop} className="btn-11">
+                        Empresas 
+                    </NavLink>
+
+                    <NavLink to={'/servicios'} activeClassName="active" onClick={scrollToTop} className="btn-11">
+                        Servicios                    
+                    </NavLink>
+
+
+                    </div>
+                </div>
+              </aside>
+            )}
+            
         </nav>
     </header >
     
