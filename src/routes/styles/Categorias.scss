@@ -1,39 +1,40 @@
 
 
 header.header-navbar { 
-    position: fixed;
-    top: 0;
-    z-index: 999;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+
+section.hero-space-2-categorias { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 55vh;
+
+  margin-top: 12.5vh;
+  margin-bottom: 5vh;
+
+  div.hero-banner {
+    background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/Banner-catalogo.png");
+    background-size: cover;
+    width: 85%;
+    height: 45vh;
+
+    display: grid;
+    place-items: center;
+
+    h1 { 
+        color: #FFF;
+        text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 124%; /* 124px */
+    }
   }
-
-
-section.hero-space-2 { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 55vh;
-
-    margin-top: 12.5vh;
-    margin-bottom: 5vh;
-
-    div.hero-banner {
-        background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/Banner-catalogo.png");
-        width: 85%;
-        height: 45vh;
-
-        display: grid;
-        place-items: center;
-
-        h1 { 
-            color: #FFF;
-            text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
-            font-size: 100px;
-            font-style: normal;
-            font-weight: 800;
-            line-height: 124%; /* 124px */
-        }
-      }
 }
 
 
@@ -165,10 +166,886 @@ section.baner-promocion3 {
           right: 0;
         }
       }
-
-
     }
-
   }
 
+/*************** Pantallas Grandes Desktop, TV, < 2000px *******************/
+@media (min-width: 2000px) and (orientation: landscape) {
+  
+
+  header.header-navbar { 
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+
+  section.hero-space-2-categorias { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55vh;
+
+    margin-top: 12.5vh;
+    margin-bottom: 5vh;
+
+    div.hero-banner {
+      background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/Banner-catalogo.png");
+      background-size: cover;
+      width: 85%;
+      height: 45vh;
+
+      display: grid;
+      place-items: center;
+
+      h1 { 
+          color: #FFF;
+          text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+          font-size: 200px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 124%; /* 124px */
+      }
+    }
+  }
+
+
+  section.categorias-section { 
+    /* background-color: green; */
+    width: 100%;
+    min-height: 35vh;
+    margin-bottom: 25vh;
+  }
+
+
+  section.baner-promocion3 {
+    background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/baner-promocion1.png");
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+
+    margin-bottom: 10vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    div.promocion3-space { 
+      /* background-color: green; */
+      width: 98%;
+      height: 100%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      div.promocion3-textcontent-space {
+        /* background-color: blue; */
+        width: 50%;
+        height: 100%;
+        
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: end;
+
+        div.promocion3-titlecontent {
+          position: absolute;
+          left: 0;
+          top: 0;
+
+          /* background-color: yellow; */
+          width: 80vw;
+          
+
+            h1 { 
+              color: #FFF;
+              text-shadow: 12px 13px 4px rgba(0, 0, 0, 0.25);
+              font-family: "Poppins", sans-serif;
+              font-size: 6.5rem;
+              font-style: normal;
+              font-weight: 900;
+              line-height: normal;
+            }
+        }
+
+        
+
+        div.promocion3-textcontent {
+          /* background-color: yellow; */
+          width: 40vw;
+          height: 50%;
+          margin-bottom: 5vh;
+          
+
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: space-between;
+
+          div > p {
+              color: #FFF;
+              font-family: "Poppins", sans-serif;
+              font-size: 2.5rem;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 10px;
+            }
+          
+
+          a { 
+            text-decoration: none;
+
+            border: 1px solid #FFF;
+            background: rgba(255, 255, 255, 0.20);
+            backdrop-filter: blur(6px);
+
+            width: 12vw;
+            height: 8vh;
+            margin-bottom: 0vh;
+
+            display: grid;
+            place-items: center;
+
+            span { 
+              color: #FFF;
+
+              font-family: "Poppins", sans-serif;
+              font-size: 3rem;
+              font-style: normal;
+              font-weight: 500;
+              line-height: normal;
+            }
+          }
+        }
+      }
+
+      div.promocion3-imagecontent-space {
+        /* background-color: red; */
+        width: 50%;
+        height: 100%;
+
+        position: relative;
+
+        img {
+          width: 30vw;
+          height: auto;
+
+          position: absolute;
+          bottom: -8vh;
+          right: 0;
+        }
+      }
+    }
+  }
+}
+
+
+/*************** Pantallas laptop, > 1024px *******************/
+@media (max-width: 1024px) and (orientation: landscape) {
+  
+
+  header.header-navbar { 
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+
+  section.hero-space-2-categorias { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55vh;
+
+    margin-top: 12.5vh;
+    margin-bottom: 5vh;
+
+    div.hero-banner {
+      background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/Banner-catalogo.png");
+      background-size: cover;
+      width: 85%;
+      height: 45vh;
+
+      display: grid;
+      place-items: center;
+
+      h1 { 
+          color: #FFF;
+          text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+          font-size: 80px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 124%; /* 124px */
+      }
+    }
+  }
+
+  section.categorias-section { 
+    /* background-color: green; */
+    width: 100%;
+    min-height: 35vh;
+    margin-bottom: 25vh;
+  }
+  
+  
+  
+  
+  section.baner-promocion3 {
+      background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/baner-promocion1.png");
+      background-size: cover;
+      width: 100%;
+      height: 75vh;
+  
+      margin-bottom: 10vh;
+  
+      display: flex;
+      align-items: center;
+      justify-content: end;
+  
+      div.promocion3-space { 
+        /* background-color: green; */
+        width: 98%;
+        height: 100%;
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        div.promocion3-textcontent-space {
+          /* background-color: blue; */
+          width: 50%;
+          height: 100%;
+          
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: end;
+  
+          div.promocion3-titlecontent {
+            position: absolute;
+            left: 0;
+            top: 0;
+  
+            /* background-color: yellow; */
+            width: 80vw;
+            
+  
+              h1 { 
+                color: #FFF;
+                text-shadow: 12px 13px 4px rgba(0, 0, 0, 0.25);
+                font-family: "Poppins", sans-serif;
+                font-size: 2.75rem;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+              }
+          }
+  
+          
+  
+          div.promocion3-textcontent {
+            /* background-color: yellow; */
+            width: 40vw;
+            height: 50%;
+            margin-bottom: 5vh;
+            
+  
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+  
+            div > p {
+              color: #FFF;
+              font-family: "Poppins", sans-serif;
+              font-size: 1rem;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 10px;
+            }
+  
+            a { 
+              text-decoration: none;
+  
+              border: 1px solid #FFF;
+              background: rgba(255, 255, 255, 0.20);
+              backdrop-filter: blur(6px);
+  
+              width: 12vw;
+              height: 8vh;
+              margin-bottom: 0vh;
+  
+              display: grid;
+              place-items: center;
+  
+              span { 
+                color: #FFF;
+  
+                font-family: "Poppins", sans-serif;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+  
+        div.promocion3-imagecontent-space {
+          /* background-color: red; */
+          width: 50%;
+          height: 100%;
+  
+          position: relative;
+  
+          img {
+            width: 30vw;
+            height: auto;
+  
+            position: absolute;
+            bottom: -8vh;
+            right: 0;
+          }
+        }
+      }
+    }
+}
+
+/*************** Pantallas tablet, > 900px *******************/
+@media (max-width: 900px) and (orientation: portrait) {
+  
+
+  header.header-navbar { 
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+
+  section.hero-space-2-categorias { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35vh;
+
+    margin-top: 12.5vh;
+    margin-bottom: 5vh;
+
+    div.hero-banner {
+      background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/Banner-catalogo.png");
+      background-size: cover;
+      width: 85%;
+      height: 25vh;
+
+      display: grid;
+      place-items: center;
+
+      h1 { 
+          color: #FFF;
+          text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+          font-size: 80px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 124%; /* 124px */
+          text-align: center;
+      }
+    }
+  }
+
+  section.categorias-section { 
+    /* background-color: green; */
+    width: 100%;
+    min-height: 35vh;
+    margin-bottom: 5vh;
+  }
+  
+  
+  
+  
+  section.baner-promocion3 {
+      background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/baner-promocion1.png");
+      background-size: cover;
+      width: 100%;
+      height: 75vh;
+  
+      margin-bottom: 10vh;
+  
+      display: flex;
+      align-items: center;
+      justify-content: end;
+  
+      div.promocion3-space { 
+        /* background-color: green; */
+        width: 98%;
+        height: 100%;
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        div.promocion3-textcontent-space {
+          /* background-color: blue; */
+          width: 50%;
+          height: 100%;
+          
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: end;
+  
+          div.promocion3-titlecontent {
+            position: absolute;
+            left: 2vw;
+            top: 0;
+  
+            /* background-color: yellow; */
+            width: 80vw;
+            
+  
+              h1 { 
+                width: 80vw;
+                color: #FFF;
+                text-shadow: 12px 13px 4px rgba(0, 0, 0, 0.25);
+                font-family: "Poppins", sans-serif;
+                font-size: 3rem;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+              }
+          }
+  
+          
+  
+          div.promocion3-textcontent {
+            /* background-color: blue; */
+            width: 60vw;
+            height: 60%;
+            margin-bottom: 0vh;
+            margin-left: 2vw;
+            
+  
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+  
+            div > p {
+              text-align: start;
+              color: #FFF;
+              font-family: "Poppins", sans-serif;
+              font-size: 1.5rem;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px;
+            
+            }
+  
+            a { 
+              text-decoration: none;
+  
+              border: 1px solid #FFF;
+              background: rgba(255, 255, 255, 0.20);
+              backdrop-filter: blur(6px);
+  
+              width: 24vw;
+              height: 8vh;
+              margin-bottom: 5vh;
+  
+              display: grid;
+              place-items: center;
+  
+              span { 
+                color: #FFF;
+  
+                font-family: "Poppins", sans-serif;
+                font-size: 2.5rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+  
+        div.promocion3-imagecontent-space {
+          width: 50%;
+          height: 100%;
+  
+          overflow: hidden;
+          position: relative;
+  
+          img {
+            width: 60vw;
+            height: auto;
+  
+            position: absolute;
+            bottom: 0vh;
+            right: -8vw;
+          }
+        }
+      }
+    }
+}
+
+/*************** Pantallas tablet, > 900px *******************/
+@media (max-width: 600px) and (orientation: portrait) {
+  
+
+  header.header-navbar { 
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+
+  section.hero-space-2-categorias { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35vh;
+
+    margin-top: 12.5vh;
+    margin-bottom: 5vh;
+
+    div.hero-banner {
+      background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/Banner-catalogo.png");
+      background-size: cover;
+      width: 85%;
+      height: 25vh;
+
+      display: grid;
+      place-items: center;
+
+      h1 { 
+          color: #FFF;
+          text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+          font-size: 50px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 124%; /* 124px */
+          text-align: center;
+      }
+    }
+  }
+
+  section.categorias-section { 
+    /* background-color: green; */
+    width: 100%;
+    min-height: 35vh;
+    margin-bottom: 5vh;
+  }
+  
+  
+  section.baner-promocion3 {
+      background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/baner-promocion1.png");
+      background-size: cover;
+      width: 100%;
+      height: 75vh;
+  
+      margin-bottom: 10vh;
+  
+      display: flex;
+      align-items: center;
+      justify-content: end;
+  
+      div.promocion3-space { 
+        /* background-color: green; */
+        width: 98%;
+        height: 100%;
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        div.promocion3-textcontent-space {
+          /* background-color: blue; */
+          width: 50%;
+          height: 100%;
+          
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: end;
+  
+          div.promocion3-titlecontent {
+            position: absolute;
+            left: 2vw;
+            top: 0;
+  
+            /* background-color: yellow; */
+            width: 80vw;
+            
+  
+              h1 { 
+                width: 80vw;
+                color: #FFF;
+                text-shadow: 12px 13px 4px rgba(0, 0, 0, 0.25);
+                font-family: "Poppins", sans-serif;
+                font-size: 2rem;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+              }
+          }
+  
+          
+  
+          div.promocion3-textcontent {
+            /* background-color: blue; */
+            width: 60vw;
+            height: 60%;
+            margin-bottom: 5vh;
+            margin-left: 2vw;
+            
+  
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+  
+            div > p {
+              text-align: start;
+              color: #FFF;
+              font-family: "Poppins", sans-serif;
+              font-size: .9rem;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px;
+            
+            }
+  
+            a { 
+              text-decoration: none;
+  
+              border: 1px solid #FFF;
+              background: rgba(255, 255, 255, 0.20);
+              backdrop-filter: blur(6px);
+  
+              width: 30vw;
+              height: 8vh;
+              margin-bottom: 5vh;
+  
+              display: grid;
+              place-items: center;
+  
+              span { 
+                color: #FFF;
+  
+                font-family: "Poppins", sans-serif;
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+  
+        div.promocion3-imagecontent-space {
+          width: 50%;
+          height: 100%;
+  
+          overflow: hidden;
+          position: relative;
+  
+          img {
+            width: 60vw;
+            height: auto;
+  
+            position: absolute;
+            bottom: 0vh;
+            right: -8vw;
+          }
+        }
+      }
+    }
+}
+
+
+/*************** Pantallas tablet, > 900px *******************/
+@media (max-width: 320px) and (orientation: portrait) {
+  
+
+  header.header-navbar { 
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  }
+
+
+  section.hero-space-2-categorias { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35vh;
+
+    margin-top: 12.5vh;
+    margin-bottom: 5vh;
+
+    div.hero-banner {
+      background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/Banner-catalogo.png");
+      background-size: cover;
+      width: 85%;
+      height: 25vh;
+
+      display: grid;
+      place-items: center;
+
+      h1 { 
+          color: #FFF;
+          text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
+          font-size: 35px;
+          font-style: normal;
+          font-weight: 800;
+          line-height: 124%; /* 124px */
+          text-align: center;
+      }
+    }
+  }
+
+  section.categorias-section { 
+    /* background-color: green; */
+    width: 100%;
+    min-height: 35vh;
+    margin-bottom: 5vh;
+  }
+  
+  
+  
+  
+  section.baner-promocion3 {
+      background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/baner-promocion1.png");
+      background-size: cover;
+      width: 100%;
+      height: 75vh;
+  
+      margin-bottom: 10vh;
+  
+      display: flex;
+      align-items: center;
+      justify-content: end;
+  
+      div.promocion3-space { 
+        /* background-color: green; */
+        width: 98%;
+        height: 100%;
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        div.promocion3-textcontent-space {
+          /* background-color: blue; */
+          width: 50%;
+          height: 100%;
+          
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          justify-content: end;
+  
+          div.promocion3-titlecontent {
+            position: absolute;
+            left: 2vw;
+            top: 0;
+  
+            /* background-color: yellow; */
+            width: 80vw;
+            
+  
+              h1 { 
+                width: 80vw;
+                color: #FFF;
+                text-shadow: 12px 13px 4px rgba(0, 0, 0, 0.25);
+                font-family: "Poppins", sans-serif;
+                font-size: 1.5rem;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+              }
+          }
+  
+          
+  
+          div.promocion3-textcontent {
+            /* background-color: blue; */
+            width: 60vw;
+            height: 60%;
+            margin-bottom: 8vh;
+            margin-left: 2vw;
+            
+  
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+  
+            div > p {
+              text-align: start;
+              color: #FFF;
+              font-family: "Poppins", sans-serif;
+              font-size: .75rem;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px;
+            
+            }
+  
+            a { 
+              text-decoration: none;
+  
+              border: 1px solid #FFF;
+              background: rgba(255, 255, 255, 0.20);
+              backdrop-filter: blur(6px);
+  
+              width: 30vw;
+              height: 20vh;
+              margin-bottom: 0vh;
+  
+              display: grid;
+              place-items: center;
+  
+              span { 
+                color: #FFF;
+  
+                font-family: "Poppins", sans-serif;
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+              }
+            }
+          }
+        }
+  
+        div.promocion3-imagecontent-space {
+          width: 50%;
+          height: 100%;
+  
+          overflow: hidden;
+          position: relative;
+  
+          img {
+            width: 60vw;
+            height: auto;
+  
+            position: absolute;
+            bottom: 0vh;
+            right: -8vw;
+          }
+        }
+      }
+    }
+}
 

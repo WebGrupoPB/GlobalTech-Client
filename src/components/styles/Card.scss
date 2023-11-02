@@ -19,6 +19,7 @@ a.Card-section{
         border-radius: 30px 30px 0px 0px;
         border: 2px solid #000;
         border-bottom: 0px;
+        overflow: hidden;
 
         img { 
             width: 100%;
@@ -39,12 +40,234 @@ a.Card-section{
         justify-content: center;
 
         h1 { 
+            width: 80%;
             color: #000;
             font-size: 16px;
             font-style: normal;
             font-weight: 800;
             line-height: 124%; /* 24.8px */
             text-align: center;
+        }
+    }
+}
+
+/*************** Pantallas Grandes Desktop, TV, < 2000px *******************/
+@media (min-width: 2000px) and (orientation: landscape) {
+    
+    a.Card-sectio { 
+        /* background-color: red; */
+        width: 15vw;
+        height: 35vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+        text-decoration: none;
+
+        aside.image-card-space{ 
+            background-color: #CDD1D4;
+            width: 100%;
+            height: 75%;
+            border-radius: 30px 30px 0px 0px;
+            border: 2px solid #000;
+            border-bottom: 0px;
+
+            img { 
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        article.text-card-space{
+            background-color: #fff;
+            width: 100%;
+            height: 25%;
+            border-radius: 0px 0px 30px 30px;
+            border: 2px solid #000;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 { 
+                width: 80%;
+                color: #000;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 124%; /* 24.8px */
+                text-align: center;
+            }
+        }
+    }
+}
+
+/*************** Pantallas laptop, > 1024px *******************/
+@media (max-width: 1024px) and (orientation: landscape) {
+    
+    a.Card-section{ 
+        /* background-color: red; */
+        width: 15vw;
+        height: 35vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+        text-decoration: none;
+
+        aside.image-card-space{ 
+            background-color: #CDD1D4;
+            width: 100%;
+            height: 75%;
+            border-radius: 30px 30px 0px 0px;
+            border: 2px solid #000;
+            border-bottom: 0px;
+
+            img { 
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        article.text-card-space{
+            background-color: #fff;
+            width: 100%;
+            height: 25%;
+            border-radius: 0px 0px 30px 30px;
+            border: 2px solid #000;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 { 
+                width: 80%;
+                color: #000;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 124%; /* 24.8px */
+                text-align: center;
+            }
+        }
+    }
+}
+
+/*************** Pantallas tablet, > 900px *******************/
+@media (max-width: 900px) and (orientation: portrait) {
+    
+    a.Card-section{ 
+        /* background-color: red; */
+        width: 25vw;
+        height: 25vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+        text-decoration: none;
+
+        aside.image-card-space{ 
+            background-color: #CDD1D4;
+            width: 100%;
+            height: 75%;
+            border-radius: 30px 30px 0px 0px;
+            border: 2px solid #000;
+            border-bottom: 0px;
+
+            img { 
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        article.text-card-space{
+            background-color: #fff;
+            width: 100%;
+            height: 25%;
+            border-radius: 0px 0px 30px 30px;
+            border: 2px solid #000;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 { 
+                width: 80%;
+                color: #000;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 124%; /* 24.8px */
+                text-align: center;
+            }
+        }
+    }
+}
+
+/*************** Pantallas tablet, > 900px *******************/
+@media (max-width: 600px) and (orientation: portrait) {
+    
+    a.Card-section{ 
+        /* background-color: red; */
+        width: 37vw;
+        height: 25vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+        text-decoration: none;
+
+        aside.image-card-space{ 
+            background-color: #CDD1D4;
+            width: 100%;
+            height: 75%;
+            border-radius: 30px 30px 0px 0px;
+            border: 2px solid #000;
+            border-bottom: 0px;
+
+
+            img { 
+                width: 100%;
+                height: 100%;
+            }
+
+        }
+
+        article.text-card-space{
+            background-color: #fff;
+            width: 100%;
+            height: 25%;
+            border-radius: 0px 0px 30px 30px;
+            border: 2px solid #000;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 { 
+                width: 90%;
+                color: #000;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 124%; /* 24.8px */
+                text-align: center;
+            }
         }
     }
 }

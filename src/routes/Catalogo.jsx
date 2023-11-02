@@ -28,7 +28,7 @@ const Catalogo = () => {
 
             <Decoradores />  
 
-            <section className='hero-space-2' id="hero-space">
+            <section className='hero-space-2-categorias' id="hero-space">
                 <div className='hero-banner'>
                     <h1>Catálogo</h1>
                 </div>
@@ -38,7 +38,7 @@ const Catalogo = () => {
                 <aside className='catalogo-space'>
 
 
-                    <div style={{ position: 'relative', paddingTop: 'max(60%,326px)', height: 0, width: '100%' }}>
+                    <div style={{ position: 'relative', paddingTop: 'max(60%, 0px)', height: "0%", width: '100%' }}>
                         <iframe
                             allow="clipboard-write"
                             sandbox="allow-top-navigation allow-top-navigation-by-user-activation allow-downloads allow-scripts allow-same-origin allow-popups allow-modals allow-popups-to-escape-sandbox allow-forms"
@@ -54,13 +54,11 @@ const Catalogo = () => {
                             bottom: 0,
                             backgroundColor: '#CDD1D4' // Cambia el color de fondo aquí
                             }}
-                            src="https://e.issuu.com/embed.html?backgroundColor=%23CDD1D4&backgroundColorFullscreen=%23CDD1D4&backgroundImageUrl=https%3A%2F%2Fs3.amazonaws.com%2Fglobaltech.la%2FRecursos%2BGlobalTech%2FGeneral%2FLogo-GlobalTech.svg&d=prototipo_global_tech_&hideIssuuLogo=true&logoImageUrl=https%3A%2F%2Fs3.amazonaws.com%2Fglobaltech.la%2FRecursos%2BGlobalTech%2FGeneral%2FLogo-GlobalTech.svg&showOtherPublicationsAsSuggestions=true&u=mercadeo-gpb"
-                        ></iframe>
+                            src="https://e.issuu.com/embed.html?backgroundColor=%23CDD1D4&backgroundColorFullscreen=%23CDD1D4&d=prototipo_global_tech_-2&hideIssuuLogo=true&showOtherPublicationsAsSuggestions=true&u=mercadeo-gpb"                       
+                        >
+                        </iframe>
+
                     </div>
-
-
-
-
                 </aside>
             </section>
 

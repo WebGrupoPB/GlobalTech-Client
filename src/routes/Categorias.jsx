@@ -91,7 +91,7 @@ const Categorias = () => {
 
             <Decoradores />  
 
-            <section className='hero-space-2' id="hero-space">
+            <section className='hero-space-2-categorias' id="hero-space">
                 <div className='hero-banner'>
                     <h1>Categorías</h1>
                 </div>
@@ -113,11 +113,11 @@ const Categorias = () => {
 
                         <div className='promocion3-textcontent'>
                             <div>
-                            <p>-  Display LCD para fácil manejo</p>
-                            <p>-  Llenado automático del aceite de transmisión</p>
-                            <p>-  Función de limpieza automática</p>
-                            <p>-  Base de datos</p>
-                            <p>-  Depósito de detergente</p>
+                                <p>-  Display LCD para fácil manejo</p>
+                                <p>-  Llenado automático del aceite de transmisión</p>
+                                <p>-  Función de limpieza automática</p>
+                                <p>-  Base de datos</p>
+                                <p>-  Depósito de detergente</p>
                             </div>
                             
                             <Link to={"/catalogo"} onClick={scrollToTop} className="btn-11">

@@ -1666,22 +1666,23 @@ section.ubicaciones-section {
 section.contacto-section { 
   /* background-color: blue; */
   width: 100%;
-  height: 85vh;
+  min-height: 120vh;
   margin-bottom: 10vh;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0vh;
 
   div.contacto-area { 
     /* background-color: green; */
     width: 95%;
-    height: 95%;
+    min-height: 120vh;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
 
     aside.contactanos-space {
       background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/cover-comentarios.png");
@@ -1691,9 +1692,10 @@ section.contacto-section {
       
       /* background: url("https://s3.amazonaws.com/hypercarwash.com/recursos/contacto-fondo.jpg"), lightgray 490.535px 279.63px / -197.246% -168.601% no-repeat; */
   
-      width: 62vw;
-      height: 100%;
+      width: 90vw;
+      height: 50%;
       /* border-radius: 1.5rem; */
+      padding: 2.5vh 0;
   
       display: flex;
       align-items: center;
@@ -1840,19 +1842,20 @@ section.contacto-section {
 
             display: flex;
             align-items: center;
-            justify-content: start;
+            justify-content: center;
 
             div { 
               /* background-color: green; */
-              width: 90%;
-              height: 80%;
+              width: 65%;
+              height: 65%;
 
               position: relative;
+              left: 3vw;
 
               span { 
                 color: #000;
                 font-family: Arial;
-                font-size: 20px;
+                font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -1863,7 +1866,7 @@ section.contacto-section {
               p { 
                 color: #000;
                 font-family: Arial;
-                font-size: 16px;
+                font-size: 12px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -1879,8 +1882,8 @@ section.contacto-section {
   
   aside.facebook-space {
       background-color: #323232;
-      width: 30vw;
-      height: 100%; 
+      width: 45vw;
+      height: 45vh; 
       
       display: flex;
       align-items: center;
@@ -1926,6 +1929,7 @@ section.contacto-section {
   }
   
   section.hero-space {
+    background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1945,9 +1949,9 @@ section.contacto-section {
     background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/baner-promocion1.png");
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
   
-    margin-bottom: 22.5vh;
+    margin-bottom: 13vh;
   
     display: flex;
     align-items: center;
@@ -1970,12 +1974,12 @@ section.contacto-section {
         position: relative;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: center;
   
         div.promocion1-titlecontent {
           position: absolute;
-          left: 0;
+          left: 2vw;
           top: 0;
   
           /* background-color: yellow; */
@@ -1986,7 +1990,7 @@ section.contacto-section {
               color: #FFF;
               text-shadow: 12px 13px 4px rgba(0, 0, 0, 0.25);
               font-family: "Poppins", sans-serif;
-              font-size: 3.25rem;
+              font-size: 1.75rem;
               font-style: normal;
               font-weight: 900;
               line-height: normal;
@@ -1996,23 +2000,26 @@ section.contacto-section {
         
   
         div.promocion1-textcontent {
-          /* background-color: yellow; */
-          width: 25vw;
+          background-color: transparent;
+          width: 50vw;
           height: 60%;
-          margin-top: 15vh;
+          margin-top: 10vh;
+          margin-left: 2vw;
   
           display: flex;
           flex-direction: column;
           align-items: start;
           justify-content: space-between;
+          
   
           div > p {
             color: #FFF;
+            text-align: left;
             font-family: "Poppins", sans-serif;
-            font-size: 1.25rem;
+            font-size: .9rem;
             font-style: normal;
             font-weight: 600;
-            line-height: 10px;
+            line-height: 20px;
           }
   
           a { 
@@ -2022,7 +2029,7 @@ section.contacto-section {
             background: rgba(255, 255, 255, 0.20);
             backdrop-filter: blur(6px);
   
-            width: 12vw;
+            width: 25vw;
             height: 8vh;
             margin-bottom: 5vh;
   
@@ -2033,7 +2040,7 @@ section.contacto-section {
               color: #FFF;
   
               font-family: "Poppins", sans-serif;
-              font-size: 1.5rem;
+              font-size: 1rem;
               font-style: normal;
               font-weight: 500;
               line-height: normal;
@@ -2044,24 +2051,24 @@ section.contacto-section {
   
       div.promocion1-imagecontent-space {
         /* background-color: red; */
-        width: 50%;
+        width: 60vw;
         height: 100%;
+        padding-bottom: 20vh;
+        z-index: 1;
   
         position: relative;
+        overflow: hidden;
   
         img {
-          width: 40vw;
+          width: 80vw;
           height: auto;
   
           position: absolute;
-          bottom: -15vh;
-          right: 0;
+          bottom: 0vh;
+          right: -22vw;
         }
       }
-  
-  
     }
-  
   }
   
   section.baner-promocion2 {
@@ -2070,7 +2077,7 @@ section.contacto-section {
     width: 100%;
     height: 85vh;
   
-    margin-bottom: 20vh;
+    margin-bottom: 5vh;
   
     display: flex;
     align-items: center;
@@ -2100,13 +2107,16 @@ section.contacto-section {
   
           /* background-color: yellow; */
           width: 100%;
+          margin-top: 2vh;
+          margin-left: 1vw;
           
   
             h1 { 
               color: #FFF;
+              width: 90vw;
               text-shadow: 12px 13px 4px rgba(0, 0, 0, 0.25);
               font-family: "Poppins", sans-serif;
-              font-size: 3.25rem;
+              font-size: 2.5rem;
               font-style: normal;
               font-weight: 900;
               line-height: normal;
@@ -2119,7 +2129,8 @@ section.contacto-section {
           /* background-color: green; */
           width: 25vw;
           height: 60%;
-          margin-top: 15vh;
+          margin-top: 5vh;
+          margin-left: 1vw;
   
           display: flex;
           flex-direction: column;
@@ -2142,9 +2153,9 @@ section.contacto-section {
             background: rgba(255, 255, 255, 0.20);
             backdrop-filter: blur(6px);
   
-            width: 12vw;
-            height: 8vh;
-            margin-bottom: 5vh;
+            width: 30vw;
+            height: 10vh;
+            margin-bottom: 15vh;
   
             display: grid;
             place-items: center;
@@ -2153,7 +2164,7 @@ section.contacto-section {
               color: #FFF;
   
               font-family: "Poppins", sans-serif;
-              font-size: 1.5rem;
+              font-size: 1.75rem;
               font-style: normal;
               font-weight: 500;
               line-height: normal;
@@ -2170,34 +2181,33 @@ section.contacto-section {
         position: relative;
   
         img {
-          width: 60vw;
+          width: 80vw;
           height: auto;
   
           position: absolute;
-          bottom: -15vh;
+          bottom: -2vh;
           right: 0;
         }
       }
-  
-  
     }
-  
   }
   
   img.separador-global {
     width: 100%;
     height: auto;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
   }
   
   section.ubicaciones-section {
     background-image: url("https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/MAPA.png");
     background-size: cover;
+    background-position-x: left;
+    background-position-y: center;
     width: 100%;
     height: 75vh;
     position: relative;
   
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
   
     a.overlay-ubicaciones {
       position: relative;
@@ -2224,7 +2234,7 @@ section.contacto-section {
   
   
         img {
-          width: 8vw;
+          width: 16vw;
           height: auto;
         
           margin-bottom: 2vh;
@@ -2233,33 +2243,34 @@ section.contacto-section {
         h1 {
           color: #fff;
           text-transform: uppercase;
-          font-size: 3rem;
+          text-align: center;
+          font-size: 2.5rem;
           font-weight: 800;
+          width: 90vw;
         
           margin: 0.2rem 0;
         }
         
         p {
-          width: 80%;
+          width: 75vw;
           color: #fff;
-          font-size: 1.75rem;
+          font-size: 1.5rem;
           text-align: center;
-          font-weight: 0;
+          font-weight: 500;
           line-height: normal;
           margin-bottom: 1.5rem;
         }
         
         .span-ubi{
           color: #F20707;
-        }
-        
+        }    
       }
       
       
       .maps-icons {
-        width: 12%;
+        width: 25%;
         height: 15%;
-        background-color: transparent;
+        /* background-color: green; */
       
         position: absolute;
         bottom: 0;
@@ -2270,13 +2281,11 @@ section.contacto-section {
         justify-content: center;
         gap: 0vw;
   
-        .maps-icons img {
-          width: 5vw;
+        img {
+          width: 10vw;
           height: auto;
         }
-      }
-      
-        
+      }  
     }
   }
   
@@ -2284,22 +2293,23 @@ section.contacto-section {
   section.contacto-section { 
     /* background-color: blue; */
     width: 100%;
-    height: 85vh;
+    min-height: 200vh;
     margin-bottom: 10vh;
   
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 0vh;
   
     div.contacto-area { 
       /* background-color: green; */
       width: 95%;
-      height: 95%;
+      min-height: 200vh;
   
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: space-between;
-  
   
       aside.contactanos-space {
         background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/cover-comentarios.png");
@@ -2309,20 +2319,22 @@ section.contacto-section {
         
         /* background: url("https://s3.amazonaws.com/hypercarwash.com/recursos/contacto-fondo.jpg"), lightgray 490.535px 279.63px / -197.246% -168.601% no-repeat; */
     
-        width: 62vw;
-        height: 100%;
+        width: 90vw;
+        min-height: 130vh;
         /* border-radius: 1.5rem; */
+        padding: 2.5vh 0;
     
         display: flex;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
   
-        gap: 2vw;
+        gap: 10vw;
   
         div.contactonos-div {
           /* background-color: green; */
-          width: 40%;
-          height: 85%;
+          width: 90%;
+          height: 60vh;
       
           display: flex;
           flex-direction: column;
@@ -2412,13 +2424,13 @@ section.contacto-section {
         
         div.comentarios-space {
           /* background-color: blue; */
-          width: 45%;
-          height: 85%;
+          width: 90%;
+          height: 60vh;
   
           display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content: center;
+          justify-content: space-between;
   
           gap: 3vh;
   
@@ -2458,19 +2470,20 @@ section.contacto-section {
   
               display: flex;
               align-items: center;
-              justify-content: start;
+              justify-content: center;
   
               div { 
                 /* background-color: green; */
-                width: 90%;
-                height: 80%;
+                width: 65%;
+                height: 65%;
   
                 position: relative;
+                left: 3vw;
   
                 span { 
                   color: #000;
                   font-family: Arial;
-                  font-size: 20px;
+                  font-size: 16px;
                   font-style: normal;
                   font-weight: 400;
                   line-height: normal;
@@ -2481,7 +2494,7 @@ section.contacto-section {
                 p { 
                   color: #000;
                   font-family: Arial;
-                  font-size: 16px;
+                  font-size: 12px;
                   font-style: normal;
                   font-weight: 400;
                   line-height: normal;
@@ -2497,8 +2510,8 @@ section.contacto-section {
     
     aside.facebook-space {
         background-color: #323232;
-        width: 30vw;
-        height: 100%; 
+        width: 70vw;
+        height: 60vh; 
         
         display: flex;
         align-items: center;
@@ -2526,15 +2539,13 @@ section.contacto-section {
             width: auto;
             height: 100%;
         }
-    }
-    
-    
-  } 
+      } 
+    } 
   }
-  }
+}
 
 
-/*************** Pantallas Movil S, > 320px *******************/
+/*************** Pantallas tablet, > 900px *******************/
 @media (max-width: 320px) and (orientation: portrait) {
 
   header.header-navbar { 
@@ -2544,6 +2555,7 @@ section.contacto-section {
   }
   
   section.hero-space {
+    background-color: gray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2563,9 +2575,9 @@ section.contacto-section {
     background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/baner-promocion1.png");
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 80vh;
   
-    margin-bottom: 22.5vh;
+    margin-bottom: 13vh;
   
     display: flex;
     align-items: center;
@@ -2588,23 +2600,24 @@ section.contacto-section {
         position: relative;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: center;
   
         div.promocion1-titlecontent {
           position: absolute;
-          left: 0;
+          left: 2vw;
           top: 0;
   
           /* background-color: yellow; */
-          width: 80vw;
+          width: 90vw;
           
   
             h1 { 
+              width: 90vw;
               color: #FFF;
               text-shadow: 12px 13px 4px rgba(0, 0, 0, 0.25);
               font-family: "Poppins", sans-serif;
-              font-size: 3.25rem;
+              font-size: 1.5rem;
               font-style: normal;
               font-weight: 900;
               line-height: normal;
@@ -2615,22 +2628,25 @@ section.contacto-section {
   
         div.promocion1-textcontent {
           /* background-color: yellow; */
-          width: 25vw;
+          width: 75vw;
           height: 60%;
-          margin-top: 15vh;
+          margin-top: 5vh;
+          margin-left: 2vw;
   
           display: flex;
           flex-direction: column;
           align-items: start;
           justify-content: space-between;
+          
   
           div > p {
             color: #FFF;
+            text-align: left;
             font-family: "Poppins", sans-serif;
-            font-size: 1.25rem;
+            font-size: .9rem;
             font-style: normal;
             font-weight: 600;
-            line-height: 10px;
+            line-height: 16px;
           }
   
           a { 
@@ -2640,7 +2656,7 @@ section.contacto-section {
             background: rgba(255, 255, 255, 0.20);
             backdrop-filter: blur(6px);
   
-            width: 12vw;
+            width: 35vw;
             height: 8vh;
             margin-bottom: 5vh;
   
@@ -2651,7 +2667,7 @@ section.contacto-section {
               color: #FFF;
   
               font-family: "Poppins", sans-serif;
-              font-size: 1.5rem;
+              font-size: 1rem;
               font-style: normal;
               font-weight: 500;
               line-height: normal;
@@ -2662,24 +2678,24 @@ section.contacto-section {
   
       div.promocion1-imagecontent-space {
         /* background-color: red; */
-        width: 50%;
+        width: 60vw;
         height: 100%;
+        padding-bottom: 20vh;
+        z-index: 1;
   
         position: relative;
+        overflow: hidden;
   
         img {
-          width: 40vw;
+          width: 80vw;
           height: auto;
   
           position: absolute;
-          bottom: -15vh;
-          right: 0;
+          bottom: 0vh;
+          right: -22vw;
         }
       }
-  
-  
     }
-  
   }
   
   section.baner-promocion2 {
@@ -2688,7 +2704,7 @@ section.contacto-section {
     width: 100%;
     height: 85vh;
   
-    margin-bottom: 20vh;
+    margin-bottom: 5vh;
   
     display: flex;
     align-items: center;
@@ -2718,13 +2734,16 @@ section.contacto-section {
   
           /* background-color: yellow; */
           width: 100%;
+          margin-top: 2vh;
+          margin-left: 1vw;
           
   
             h1 { 
               color: #FFF;
+              width: 90vw;
               text-shadow: 12px 13px 4px rgba(0, 0, 0, 0.25);
               font-family: "Poppins", sans-serif;
-              font-size: 3.25rem;
+              font-size: 2rem;
               font-style: normal;
               font-weight: 900;
               line-height: normal;
@@ -2737,7 +2756,8 @@ section.contacto-section {
           /* background-color: green; */
           width: 25vw;
           height: 60%;
-          margin-top: 15vh;
+          margin-top: 2vh;
+          margin-left: 1vw;
   
           display: flex;
           flex-direction: column;
@@ -2760,9 +2780,9 @@ section.contacto-section {
             background: rgba(255, 255, 255, 0.20);
             backdrop-filter: blur(6px);
   
-            width: 12vw;
-            height: 8vh;
-            margin-bottom: 5vh;
+            width: 30vw;
+            height: 10vh;
+            margin-bottom: 15vh;
   
             display: grid;
             place-items: center;
@@ -2771,7 +2791,7 @@ section.contacto-section {
               color: #FFF;
   
               font-family: "Poppins", sans-serif;
-              font-size: 1.5rem;
+              font-size: 1.25rem;
               font-style: normal;
               font-weight: 500;
               line-height: normal;
@@ -2788,34 +2808,33 @@ section.contacto-section {
         position: relative;
   
         img {
-          width: 60vw;
+          width: 80vw;
           height: auto;
   
           position: absolute;
-          bottom: -15vh;
+          bottom: -2vh;
           right: 0;
         }
       }
-  
-  
     }
-  
   }
   
   img.separador-global {
     width: 100%;
     height: auto;
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
   }
   
   section.ubicaciones-section {
     background-image: url("https://s3.amazonaws.com/passfuel.com/Recuros-passfuel/home/MAPA.png");
     background-size: cover;
+    background-position-x: left;
+    background-position-y: center;
     width: 100%;
     height: 75vh;
     position: relative;
   
-    margin-bottom: 15vh;
+    margin-bottom: 5vh;
   
     a.overlay-ubicaciones {
       position: relative;
@@ -2842,7 +2861,7 @@ section.contacto-section {
   
   
         img {
-          width: 8vw;
+          width: 18vw;
           height: auto;
         
           margin-bottom: 2vh;
@@ -2851,33 +2870,34 @@ section.contacto-section {
         h1 {
           color: #fff;
           text-transform: uppercase;
-          font-size: 3rem;
+          text-align: center;
+          font-size: 2rem;
           font-weight: 800;
+          width: 90vw;
         
           margin: 0.2rem 0;
         }
         
         p {
-          width: 80%;
+          width: 75vw;
           color: #fff;
-          font-size: 1.75rem;
+          font-size: 1rem;
           text-align: center;
-          font-weight: 0;
+          font-weight: 500;
           line-height: normal;
           margin-bottom: 1.5rem;
         }
         
         .span-ubi{
           color: #F20707;
-        }
-        
+        }    
       }
       
       
       .maps-icons {
-        width: 12%;
+        width: 35%;
         height: 15%;
-        background-color: transparent;
+        /* background-color: green; */
       
         position: absolute;
         bottom: 0;
@@ -2888,13 +2908,11 @@ section.contacto-section {
         justify-content: center;
         gap: 0vw;
   
-        .maps-icons img {
-          width: 5vw;
+        img {
+          width: 15vw;
           height: auto;
         }
-      }
-      
-        
+      }  
     }
   }
   
@@ -2902,22 +2920,23 @@ section.contacto-section {
   section.contacto-section { 
     /* background-color: blue; */
     width: 100%;
-    height: 85vh;
+    min-height: 205vh;
     margin-bottom: 10vh;
   
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 0vh;
   
     div.contacto-area { 
       /* background-color: green; */
       width: 95%;
-      height: 95%;
+      min-height: 205vh;
   
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: space-between;
-  
   
       aside.contactanos-space {
         background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/cover-comentarios.png");
@@ -2927,20 +2946,22 @@ section.contacto-section {
         
         /* background: url("https://s3.amazonaws.com/hypercarwash.com/recursos/contacto-fondo.jpg"), lightgray 490.535px 279.63px / -197.246% -168.601% no-repeat; */
     
-        width: 62vw;
-        height: 100%;
+        width: 90vw;
+        min-height: 135vh;
         /* border-radius: 1.5rem; */
+        padding: 2.5vh 0;
     
         display: flex;
+        flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
   
-        gap: 2vw;
+        gap: 10vw;
   
         div.contactonos-div {
           /* background-color: green; */
-          width: 40%;
-          height: 85%;
+          width: 90%;
+          height: 60vh;
       
           display: flex;
           flex-direction: column;
@@ -3030,20 +3051,20 @@ section.contacto-section {
         
         div.comentarios-space {
           /* background-color: blue; */
-          width: 45%;
-          height: 85%;
+          width: 90%;
+          height: 65vh;
   
           display: flex;
           flex-direction: column;
           align-items: center;
-          justify-content: center;
+          justify-content: space-between;
   
           gap: 3vh;
   
           aside.comentario-card { 
             background-color: #fff;
             width: 100%;
-            height: 18vh;
+            height: 20vh;
   
             display: flex;
             align-items: center;
@@ -3065,7 +3086,7 @@ section.contacto-section {
                 position: relative;
                 right: 1vw; 
                 width: auto;
-                height: 18vh;
+                height: 20vh;
               }
             }
   
@@ -3076,19 +3097,20 @@ section.contacto-section {
   
               display: flex;
               align-items: center;
-              justify-content: start;
+              justify-content: center;
   
               div { 
                 /* background-color: green; */
-                width: 90%;
-                height: 80%;
+                width: 85%;
+                height: 85%;
   
                 position: relative;
+                left: 3vw;
   
                 span { 
                   color: #000;
                   font-family: Arial;
-                  font-size: 20px;
+                  font-size: 15px;
                   font-style: normal;
                   font-weight: 400;
                   line-height: normal;
@@ -3099,7 +3121,7 @@ section.contacto-section {
                 p { 
                   color: #000;
                   font-family: Arial;
-                  font-size: 16px;
+                  font-size: 12px;
                   font-style: normal;
                   font-weight: 400;
                   line-height: normal;
@@ -3115,8 +3137,8 @@ section.contacto-section {
     
     aside.facebook-space {
         background-color: #323232;
-        width: 30vw;
-        height: 100%; 
+        width: 70vw;
+        height: 60vh; 
         
         display: flex;
         align-items: center;
@@ -3144,11 +3166,7 @@ section.contacto-section {
             width: auto;
             height: 100%;
         }
-    }
-    
-    
-  } 
+      } 
+    } 
   }
-  }
-
-
+}

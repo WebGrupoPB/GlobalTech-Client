@@ -7,37 +7,6 @@ header.header-navbar {
   }
 
 
-section.hero-space-2 { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 55vh;
-
-    margin-top: 12.5vh;
-    margin-bottom: 0vh;
-
-    div.hero-banner {
-        background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/Banner-catalogo.png");
-        width: 85%;
-        height: 45vh;
-
-        display: grid;
-        place-items: center;
-
-        h1 { 
-            color: #FFF;
-            text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
-            font-size: 100px;
-            font-style: normal;
-            font-weight: 800;
-            line-height: 124%; /* 124px */
-        }
-      }
-}
-
-
-
 div.line-decoration-space { 
     /* background-color: red; */
     width: 100%;
@@ -220,6 +189,581 @@ section.historia-section {
             img { 
                 width: 100%;
                 height: auto;
+            }
+        }
+    }
+}
+
+/*************** Pantallas Grandes Desktop, TV, < 2000px *******************/
+@media (min-width: 2000px) and (orientation: landscape) {  
+    
+    div.line-decoration-space { 
+        /* background-color: red; */
+        width: 100%;
+        height: 5vh;
+    
+        margin-bottom: 10vh;
+    
+        display: grid;
+        place-items: center;
+    
+        aside { 
+            /* background-color: green; */
+            width: 85%;
+            height: 5vh;
+    
+    
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+    
+            h2 {
+                color: #000;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+    
+                margin: 3vh 0 2vh 0;
+            }
+    
+            div { 
+                background-color: #4F4F4F;
+                width: 100%;
+                height: 2vh;
+            }
+        }
+    }
+    
+    
+    section.quienesSomos-section {
+        /* background-color: blue; */
+        width: 100%;
+        min-height: 80vh;
+        margin-bottom: 15vh;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        div.quienesSomos-space{
+            /* background-color: red; */
+            width: 95%;
+            min-height: 80vh;
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            article.articulo-space { 
+                background-color: #fff;
+                width: 50%;
+                height: 120vh;
+    
+                border-left: 30px solid #F20707;
+                box-shadow: 12px 10px 25px 10px rgba(0, 0, 0, 0.25);
+    
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: start;
+    
+                h1 { 
+                    color: #000;
+                    font-size: 80px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+    
+                    width: 75%;
+                    margin-top: 7.5vh;
+                    margin-bottom: 5vh;
+                }
+    
+                p { 
+                    color: #000;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 199.992%; /* 31.999px */
+                    letter-spacing: 0.64px;
+    
+                    width: 75%;
+                }
+    
+                }
+        
+            aside.imagen-space { 
+                background-color: transparent;
+                width: 50%;
+                height: 120vh;
+    
+                display: grid;
+                place-items: center;
+    
+                img { 
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+    
+    
+    section.historia-section { 
+        /* background-color: red; */
+        width: 100%;
+        min-height: 100vh;
+        margin-bottom: 15vh;
+    
+        display: grid;
+        place-items: center;
+    
+        div.historia-space {
+            /* background-color: red; */
+            width: 95%;
+            min-height: 80vh;
+    
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: center;
+    
+            article.articulo-space { 
+                background-color: #fff;
+                width: 50%;
+                height: 120vh;
+    
+                border-right: 30px solid #F20707;
+                box-shadow: -12px 10px 25px 10px rgba(0, 0, 0, 0.25);
+    
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: start;
+    
+                h1 { 
+                    color: #000;
+                    font-size: 80px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+    
+                    width: 75%;
+                    margin-top: 7.5vh;
+                    margin-bottom: 5vh;
+                }
+    
+                p { 
+                    color: #000;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 199.992%; /* 31.999px */
+                    letter-spacing: 0.64px;
+    
+                    width: 75%;
+                }
+    
+                }
+        
+            aside.imagen-space { 
+                background-color: transparent;
+                width: 50%;
+                height: 120vh;
+    
+                display: grid;
+                place-items: center;
+    
+                img { 
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+/*************** Pantallas laptop, > 1024px *******************/
+@media (max-width: 1024px) and (orientation: landscape) {
+    
+
+    div.line-decoration-space { 
+        /* background-color: red; */
+        width: 100%;
+        height: 5vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        aside { 
+            /* background-color: green; */
+            width: 85%;
+            height: 5vh;
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+
+            h2 {
+                color: #000;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                margin: 3vh 0 2vh 0;
+            }
+
+            div { 
+                background-color: #4F4F4F;
+                width: 100%;
+                height: 2vh;
+            }
+        }
+    }
+
+
+    section.quienesSomos-section {
+        /* background-color: blue; */
+        width: 100%;
+        min-height: 80vh;
+        margin-bottom: 15vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div.quienesSomos-space{
+            /* background-color: red; */
+            width: 95%;
+            min-height: 80vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            article.articulo-space { 
+                background-color: #fff;
+                width: 50%;
+                height: 120vh;
+
+                border-left: 30px solid #F20707;
+                box-shadow: 12px 10px 25px 10px rgba(0, 0, 0, 0.25);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: start;
+
+                h1 { 
+                    color: #000;
+                    font-size: 34px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+
+                    width: 75%;
+                    margin-top: 7.5vh;
+                    margin-bottom: 5vh;
+                }
+
+                p { 
+                    color: #000;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 199.992%; /* 31.999px */
+                    letter-spacing: 0.64px;
+
+                    width: 75%;
+                }
+
+                }
+        
+            aside.imagen-space { 
+                background-color: transparent;
+                width: 50%;
+                height: 120vh;
+
+                display: grid;
+                place-items: center;
+
+                img { 
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+
+    section.historia-section { 
+        /* background-color: red; */
+        width: 100%;
+        min-height: 100vh;
+        margin-bottom: 15vh;
+
+        display: grid;
+        place-items: center;
+
+        div.historia-space {
+            /* background-color: red; */
+            width: 95%;
+            min-height: 80vh;
+
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: center;
+
+            article.articulo-space { 
+                background-color: #fff;
+                width: 50%;
+                height: 120vh;
+
+                border-right: 30px solid #F20707;
+                box-shadow: -12px 10px 25px 10px rgba(0, 0, 0, 0.25);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: start;
+
+                h1 { 
+                    color: #000;
+                    font-size: 34px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+
+                    width: 75%;
+                    margin-top: 7.5vh;
+                    margin-bottom: 5vh;
+                }
+
+                p { 
+                    color: #000;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 199.992%; /* 31.999px */
+                    letter-spacing: 0.64px;
+
+                    width: 75%;
+                }
+
+                }
+        
+            aside.imagen-space { 
+                background-color: transparent;
+                width: 50%;
+                height: 120vh;
+
+                display: grid;
+                place-items: center;
+
+                img { 
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+/*************** Pantallas laptop, > 1024px *******************/
+@media (max-width: 900px) and (orientation: portrait) {
+    
+
+    div.line-decoration-space { 
+        /* background-color: red; */
+        width: 100%;
+        height: 5vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        aside { 
+            /* background-color: green; */
+            width: 85%;
+            height: 5vh;
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+
+            h2 {
+                color: #000;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                margin: 3vh 0 2vh 0;
+            }
+
+            div { 
+                background-color: #4F4F4F;
+                width: 100%;
+                height: 2vh;
+            }
+        }
+    }
+
+
+    section.quienesSomos-section {
+        /* background-color: blue; */
+        width: 100%;
+        min-height: 80vh;
+        margin-bottom: 15vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div.quienesSomos-space{
+            /* background-color: red; */
+            width: 95%;
+            min-height: 80vh;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            article.articulo-space { 
+                background-color: #fff;
+                width: 50%;
+                height: 120vh;
+
+                border-left: 30px solid #F20707;
+                box-shadow: 12px 10px 25px 10px rgba(0, 0, 0, 0.25);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: start;
+
+                h1 { 
+                    color: #000;
+                    font-size: 34px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+
+                    width: 75%;
+                    margin-top: 7.5vh;
+                    margin-bottom: 5vh;
+                }
+
+                p { 
+                    color: #000;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 199.992%; /* 31.999px */
+                    letter-spacing: 0.64px;
+
+                    width: 75%;
+                }
+
+                }
+        
+            aside.imagen-space { 
+                background-color: transparent;
+                width: 50%;
+                height: 120vh;
+
+                display: grid;
+                place-items: center;
+
+                img { 
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+
+    section.historia-section { 
+        /* background-color: red; */
+        width: 100%;
+        min-height: 100vh;
+        margin-bottom: 15vh;
+
+        display: grid;
+        place-items: center;
+
+        div.historia-space {
+            /* background-color: red; */
+            width: 95%;
+            min-height: 80vh;
+
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+            justify-content: center;
+
+            article.articulo-space { 
+                background-color: #fff;
+                width: 50%;
+                height: 120vh;
+
+                border-right: 30px solid #F20707;
+                box-shadow: -12px 10px 25px 10px rgba(0, 0, 0, 0.25);
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: start;
+
+                h1 { 
+                    color: #000;
+                    font-size: 34px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+
+                    width: 75%;
+                    margin-top: 7.5vh;
+                    margin-bottom: 5vh;
+                }
+
+                p { 
+                    color: #000;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 199.992%; /* 31.999px */
+                    letter-spacing: 0.64px;
+
+                    width: 75%;
+                }
+
+                }
+        
+            aside.imagen-space { 
+                background-color: transparent;
+                width: 50%;
+                height: 120vh;
+
+                display: grid;
+                place-items: center;
+
+                img { 
+                    width: 100%;
+                    height: auto;
+                }
             }
         }
     }

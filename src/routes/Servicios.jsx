@@ -62,7 +62,7 @@ const Servicios = () => {
                 </aside>
             </div>
 
-            <section className='categorias-section'>
+            <section className='servicios-section'>
                 <CardSection cardInfo={cardInfo2} />
             </section>
 

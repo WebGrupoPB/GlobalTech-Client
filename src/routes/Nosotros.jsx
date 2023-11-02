@@ -24,7 +24,7 @@ const Nosotros = () => {
 
             <Decoradores />  
 
-            <section className='hero-space-2' id="hero-space">
+            <section className='hero-space-2-categorias' id="hero-space">
                 <div className='hero-banner'>
                     <h1>Nosotros</h1>
                 </div>
@@ -39,24 +39,21 @@ const Nosotros = () => {
             <section className='quienesSomos-section'> 
                 <div className='quienesSomos-space'>
                     <article className='articulo-space'>
-                        <h1>¿Quienes somos?</h1>
+                        <h1>Visión</h1>
 
                         <p>
-                            Gobal Tech es una empresa dedicada a la
-                            comercialización y venta de equipos y herramientas 
-                            especializadas para taller.
+                            En Global Tech, nos comprometemos a no solo entender, sino anticipar y superar las necesidades 
+                            de nuestros clientes, siempre entregando soluciones de alta calidad de manera eficiente y 
+                            oportuna. 
                         </p>
                         <p>
-                            Contamos con marcas reconocidas a nivel
-                            internacional, que nos brinda garantía de
-                            fábrica que todos nuestros equipos cuenta
-                            con el respaldo necesario para las instrucciones de uso, optimización de recursos,
-                            instalación, ejecución y garantía.
+                            Esto lo logramos gracias a nuestro equipo altamente capacitado, 
+                            cuyo enfoque principal es aplicar la excelencia en todos los aspectos de nuestro trabajo. 
                         </p>
                         <p>     
-                            Actualmente Global Tech se encuentra pre-
-                            sente en Guatemala, El Salvador, Honduras,
-                            Nicaragua, Costa Rica.
+                            Con un compromiso inquebrantable, un profundo conocimiento en nuestro sector y la 
+                            distribución de las mejores herramientas y recursos, estamos listos para llevar a 
+                            cabo una experiencia sin igual para nuestros clientes en cada paso del camino.
                         </p>
                     </article>
 
@@ -69,10 +66,22 @@ const Nosotros = () => {
             <section className='historia-section'>
                 <div className='historia-space'>
                     <article className='articulo-space'>
-                        <h1>Historia</h1>
+                        <h1>Misión</h1>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget quam nec velit commodo tristique. Vivamus accumsan odio auctor tortor pulvinar, a dignissim turpis interdum. Duis tristique dui non magna viverra, id sollicitudin lorem feugiat. Fusce a efficitur urna. Aliquam volutpat, justo nec malesuada interdum, justo tortor luctus velit, eget tempus metus enim sed libero. Suspendisse potenti. Sed in dignissim justo. Nullam dictum fermentum volutpat. Integer eu lacus eu nulla malesuada rhoncus. Nulla facilisi.
+                            En Global Tech, nuestra misión es superar constantemente las expectativas de 
+                            nuestros clientes al entender y satisfacer sus necesidades de manera ágil y 
+                            eficiente. 
+                        </p>
+
+                        <p>
+                            Lo logramos proporcionando soluciones adecuadas en tiempo real a través 
+                            de un equipo altamente capacitado y profesional. 
+                        </p>
+                        <p>     
+                            Nos comprometemos a inspirar la 
+                            calidad en todos los aspectos de nuestro trabajo, combinando responsabilidad y 
+                            experiencia en la distribución de equipos y herramientas de última tecnología. 
                         </p>
                     </article>
 
