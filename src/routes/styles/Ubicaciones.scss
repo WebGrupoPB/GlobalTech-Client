@@ -7,36 +7,6 @@ header.header-navbar {
   }
 
 
-section.hero-space-2 { 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 55vh;
-
-    margin-top: 12.5vh;
-    margin-bottom: 0vh;
-
-    div.hero-banner {
-        background-image: url("https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/Banner-catalogo.png");
-        width: 85%;
-        height: 45vh;
-
-        display: grid;
-        place-items: center;
-
-        h1 { 
-            color: #FFF;
-            text-shadow: 7px 4px 4px rgba(0, 0, 0, 0.25);
-            font-size: 100px;
-            font-style: normal;
-            font-weight: 800;
-            line-height: 124%; /* 124px */
-        }
-      }
-}
-
-
 
 div.line-decoration-space { 
     /* background-color: red; */
@@ -184,6 +154,615 @@ section.mapUbi-section {
             /* background-color: yellow; */
             width: 100%;
             min-height: 30vh;
+        }
+    }
+}
+
+
+/*************** Pantallas Grandes Desktop, TV, < 2000px *******************/
+@media (min-width: 2000px) and (orientation: landscape) {
+        
+    div.line-decoration-space { 
+        /* background-color: red; */
+        width: 100%;
+        height: 5vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        aside { 
+            /* background-color: green; */
+            width: 85%;
+            height: 5vh;
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+
+            h2 {
+                color: #000;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                margin: 3vh 0 2vh 0;
+            }
+
+            div { 
+                background-color: #4F4F4F;
+                width: 100%;
+                height: 2vh;
+            }
+        }
+    }
+
+
+
+    section.mapUbi-section { 
+        /* background-color: blue; */
+        width: 100%;
+        min-height: 50vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        div.mapUbi-space {
+            /* background-color: red; */
+            width: 90%;
+            min-height: 50vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            header.filtro-mapUbi-space { 
+                /* background-color: green; */
+                width: 100%;
+                height: 35vh;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                div.btn-filtro-space { 
+                    /* background-color: blue; */
+                    width: 85vw;
+                    height: 20vh;
+
+                    display: flex;
+                    align-items: end;
+                    justify-content: center;
+
+                    gap: 10vw;
+
+                    button.btn-filtro { 
+                        background-color: #fff;
+                        width: 20vw;
+                        height: 10vh;
+                        border: 1px solid #000;
+                        padding: 6vh 1vw;
+                        /* padding: 0; */
+
+                        display: flex;
+
+                        /* &:hover {
+                            span {
+                                p { 
+                                    text-align: center;
+                                    color: #fff;
+                                    font-size: 1.5rem;
+                                    font-weight: 500; 
+                                }
+                            }
+                        } */
+
+                        div { 
+                            /* background-color: green; */
+                            width: 5vw;
+                            height: 100%;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: auto; 
+                                height: 8vh;
+                            }
+                        }
+
+                        span { 
+                            /* background-color: yellow; */
+                            width: 15vw;
+                            height: 100%;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            p { 
+                                text-align: center;
+                                color: #000;
+                                font-size: 3rem;
+                                font-weight: 500; 
+                            }
+                        }
+                    }
+                }
+
+                span.textUbi { 
+                    margin-bottom: 3vh;
+                    font-size: 2rem;
+                }
+            }
+
+            aside.googleMaps-mapUbi-space { 
+                /* background-color: yellow; */
+                width: 100%;
+                min-height: 30vh;
+            }
+        }
+    }
+}
+
+/*************** Pantallas laptop, > 1024px *******************/
+@media (max-width: 1024px) and (orientation: landscape) {
+
+    div.line-decoration-space { 
+        /* background-color: red; */
+        width: 100%;
+        height: 5vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        aside { 
+            /* background-color: green; */
+            width: 85%;
+            height: 5vh;
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+
+            h2 {
+                color: #000;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                margin: 3vh 0 2vh 0;
+            }
+
+            div { 
+                background-color: #4F4F4F;
+                width: 100%;
+                height: 2vh;
+            }
+        }
+    }
+
+
+
+    section.mapUbi-section { 
+        /* background-color: blue; */
+        width: 100%;
+        min-height: 50vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        div.mapUbi-space {
+            /* background-color: red; */
+            width: 90%;
+            min-height: 50vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            header.filtro-mapUbi-space { 
+                /* background-color: green; */
+                width: 100%;
+                height: 35vh;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                div.btn-filtro-space { 
+                    /* background-color: blue; */
+                    width: 85vw;
+                    height: 20vh;
+
+                    display: flex;
+                    align-items: end;
+                    justify-content: center;
+
+                    gap: 10vw;
+
+                    button.btn-filtro { 
+                        background-color: #fff;
+                        width: 20vw;
+                        height: 10vh;
+                        border: 1px solid #000;
+                        padding: 6vh 1vw;
+                        /* padding: 0; */
+
+                        display: flex;
+
+                        /* &:hover {
+                            span {
+                                p { 
+                                    text-align: center;
+                                    color: #fff;
+                                    font-size: 1.5rem;
+                                    font-weight: 500; 
+                                }
+                            }
+                        } */
+
+                        div { 
+                            /* background-color: green; */
+                            width: 5vw;
+                            height: 100%;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: auto; 
+                                height: 8vh;
+                            }
+                        }
+
+                        span { 
+                            /* background-color: yellow; */
+                            width: 15vw;
+                            height: 100%;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            p { 
+                                text-align: center;
+                                color: #000;
+                                font-size: 1.2rem;
+                                font-weight: 500; 
+                            }
+                        }
+                    }
+                }
+
+                span.textUbi { 
+                    margin-bottom: 3vh;
+                    font-size: 1rem;
+                }
+            }
+
+            aside.googleMaps-mapUbi-space { 
+                /* background-color: yellow; */
+                width: 100%;
+                min-height: 30vh;
+            }
+        }
+    }
+}
+
+/*************** Pantallas Movil, > 600px *******************/
+@media (max-width: 600px) and (orientation: portrait) {
+
+    div.line-decoration-space { 
+        /* background-color: red; */
+        width: 100%;
+        height: 5vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        aside { 
+            /* background-color: green; */
+            width: 85%;
+            height: 5vh;
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+
+            h2 {
+                color: #000;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                margin: 3vh 0 2vh 0;
+            }
+
+            div { 
+                background-color: #4F4F4F;
+                width: 100%;
+                height: 2vh;
+            }
+        }
+    }
+
+
+
+    section.mapUbi-section { 
+        /* background-color: blue; */
+        width: 100%;
+        min-height: 50vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        div.mapUbi-space {
+            /* background-color: red; */
+            width: 90%;
+            min-height: 50vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            header.filtro-mapUbi-space { 
+                /* background-color: green; */
+                width: 100%;
+                height: 50vh;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                div.btn-filtro-space { 
+                    /* background-color: blue; */
+                    width: 90vw;
+                    height: 30vh;
+
+                    /* display: flex;
+                    align-items: end;
+                    justify-content: center; */
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    /* gap: 10vw; */
+
+                    button.btn-filtro { 
+                        background-color: #fff;
+                        width: 60vw;
+                        height: 10vh;
+                        border: 1px solid #000;
+                        padding: 6vh 1vw;
+                        /* padding: 0; */
+
+                        display: flex;
+
+                        div { 
+                            /* background-color: green; */
+                            width: 15vw;
+                            height: 100%;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: auto; 
+                                height: 8vh;
+                            }
+                        }
+
+                        span { 
+                            /* background-color: yellow; */
+                            width: 35vw;
+                            height: 100%;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+
+                            p { 
+                                text-align: center;
+                                color: #000;
+                                font-size: 1.4rem;
+                                font-weight: 500; 
+                            }
+                        }
+                    }
+                }
+
+                span.textUbi { 
+                    margin-bottom: 3vh;
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+            }
+
+            aside.googleMaps-mapUbi-space { 
+                /* background-color: yellow; */
+                width: 100%;
+                min-height: 30vh;
+            }
+        }
+    }
+}
+
+/*************** Pantallas Movil S, > 320px *******************/
+@media (max-width: 320px) and (orientation: portrait) {
+
+    div.line-decoration-space { 
+        /* background-color: red; */
+        width: 100%;
+        height: 5vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        aside { 
+            /* background-color: green; */
+            width: 85%;
+            height: 5vh;
+
+
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: end;
+
+            h2 {
+                color: #000;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+
+                margin: 3vh 0 2vh 0;
+            }
+
+            div { 
+                background-color: #4F4F4F;
+                width: 100%;
+                height: 2vh;
+            }
+        }
+    }
+
+
+
+    section.mapUbi-section { 
+        /* background-color: blue; */
+        width: 100%;
+        min-height: 50vh;
+
+        margin-bottom: 10vh;
+
+        display: grid;
+        place-items: center;
+
+        div.mapUbi-space {
+            /* background-color: red; */
+            width: 90%;
+            min-height: 50vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            header.filtro-mapUbi-space { 
+                /* background-color: green; */
+                width: 100%;
+                height: 50vh;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+
+                div.btn-filtro-space { 
+                    /* background-color: blue; */
+                    width: 90vw;
+                    height: 30vh;
+
+                    /* display: flex;
+                    align-items: end;
+                    justify-content: center; */
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    /* gap: 10vw; */
+
+                    button.btn-filtro { 
+                        background-color: #fff;
+                        width: 60vw;
+                        height: 10vh;
+                        border: 1px solid #000;
+                        padding: 6vh 1vw;
+                        /* padding: 0; */
+
+                        display: flex;
+
+                        div { 
+                            /* background-color: green; */
+                            width: 15vw;
+                            height: 100%;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: auto; 
+                                height: 8vh;
+                            }
+                        }
+
+                        span { 
+                            /* background-color: yellow; */
+                            width: 35vw;
+                            height: 100%;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: start;
+
+                            p { 
+                                text-align: center;
+                                color: #000;
+                                font-size: 1rem;
+                                font-weight: 500; 
+                            }
+                        }
+                    }
+                }
+
+                span.textUbi { 
+                    margin-bottom: 3vh;
+                    font-size: 1.2rem;
+                    text-align: center;
+                }
+            }
+
+            aside.googleMaps-mapUbi-space { 
+                /* background-color: yellow; */
+                width: 100%;
+                min-height: 30vh;
+            }
         }
     }
 }

@@ -7,7 +7,7 @@ import Slider from '../components/Slider';
 import Footer from '../components/Footer';
 import CardSection from '../components/CardSection';
 
-import "./styles/Servicios.scss"
+import "./styles/Empresas.scss"
 
 
 const cardInfo2 = [
@@ -36,7 +36,7 @@ const cardInfo2 = [
 
 
 
-const Servicios = () => {
+const Empresas = () => {
 
 
     return (
@@ -51,13 +51,12 @@ const Servicios = () => {
 
             <section className='hero-space-2-categorias' id="hero-space">
                 <div className='hero-banner'>
-                    <h1>Servicios</h1>
+                    <h1>Empresas</h1>
                 </div>
             </section>
 
             <div className='line-decoration-space2'>
                 <aside>
-                    <h2>Temas de ayuda</h2>
                     <div></div>
                 </aside>
             </div>
@@ -76,4 +75,4 @@ const Servicios = () => {
 }
 
 
-export default Servicios;
+export default Empresas;

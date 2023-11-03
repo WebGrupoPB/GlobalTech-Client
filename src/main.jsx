@@ -6,7 +6,8 @@ import Categorias from './routes/Categorias.jsx'
 import Nosotros from './routes/Nosotros.jsx'
 import Servicios from './routes/Servicios.jsx'
 import Ubicaciones from './routes/Ubicaciones.jsx'
-import Maps from './components/Maps.jsx'
+import Empresas from './routes/Empresas.jsx'
+
 
 
 import './index.css'
@@ -19,6 +20,8 @@ import {
 import Facebook from './components/FacebookIframe.jsx'
 import BtnHover from './components/BtnHover.jsx'
 import Navbar from './components/Navbar.jsx'
+import Maps from './components/Maps.jsx'
+
 
 
  
@@ -57,8 +60,8 @@ import Navbar from './components/Navbar.jsx'
     element: <BtnHover />,
   },
   {
-    path: "/navbar",
-    element: <Navbar />,
+    path: "/empresas",
+    element: <Empresas />,
   },
 
  ]); 

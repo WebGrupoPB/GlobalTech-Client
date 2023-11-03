@@ -54,7 +54,7 @@ const Ubicaciones = () => {
 
             <Decoradores />  
 
-            <section className='hero-space-2' id="hero-space">
+            <section className='hero-space-2-categorias' id="hero-space">
                 <div className='hero-banner'>
                     <h1>Ubicaciones</h1>
                 </div>
