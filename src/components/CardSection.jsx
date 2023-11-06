@@ -1,10 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-import Decoradores from './Decoradores';
-import Navbar from './Navbar';
-import Slider from './Slider';
-import Footer from './Footer';
 import Card from './Card';
 
 import "./styles/CardSection.scss"
@@ -12,14 +8,14 @@ import "./styles/CardSection.scss"
 
 
 
-const CardSection = ({cardInfo}) => {
+const CardSection = ({cardInfo, category}) => {
 
 
     return (
-        <section className='Cards-section'>
+        <section className={`Cards-section${category ? `-for${category}` : ''}`}>
             <div className='Cards-space'>
                 {cardInfo.map((card) => (
-                    <Card key={card.id} text={card.text} image={card.imageURL} />
+                    <Card key={card.id} text={card.text} image={card.imageURL} linkTo={card.link} category={category}/>
                 ))}
             </div>
         </section>

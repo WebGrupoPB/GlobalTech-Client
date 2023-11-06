@@ -35,10 +35,10 @@ import Maps from './components/Maps.jsx'
     path: "/catalogo",
     element: <Catalogo />,
   },
-  {
+  /* {
     path: "/categorias",
     element: <Categorias />,
-  },
+  }, */
   {
     path: "/nosotros",
     element: <Nosotros />,
@@ -47,18 +47,10 @@ import Maps from './components/Maps.jsx'
     path: "/ubicaciones",
     element: <Ubicaciones />,
   },
-  {
+/*   {
     path: "/servicios",
     element: <Servicios />,
-  },
-  {
-    path: "/facebook",
-    element: <Facebook />,
-  },
-  {
-    path: "/btn",
-    element: <BtnHover />,
-  },
+  }, */
   {
     path: "/empresas",
     element: <Empresas />,

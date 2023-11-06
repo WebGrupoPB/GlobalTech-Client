@@ -101,11 +101,7 @@ header.navbar-space {
                     text-underline-offset: 12px;
                     color: #fff;
                     background-clip: text; 
-                    background-image: linear-gradient(
-                      to bottom,
-                      rgba(0, 0, 0, 1) 100%,
-                      rgba(0, 0, 0, 1) 100%,
-                    );
+                    background-color: rgba(0, 0, 0, 1);
                     padding: 4px 0px; 
                     
                     transition: color 0.3s ease, text-decoration-color 0.3s ease; 
@@ -148,7 +144,7 @@ header.navbar-space {
 
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: end;
 
                 gap: 1vw;
 
@@ -541,11 +537,7 @@ header.navbar-space {
                             text-underline-offset: 20px;
                             color: #fff;
                             background-clip: text; 
-                            background-image: linear-gradient(
-                            to bottom,
-                            rgba(0, 0, 0, 1) 100%,
-                            rgba(0, 0, 0, 1) 100%,
-                            );
+                            background-color: rgba(0, 0, 0, 1);
                             padding: 4px 12px; 
                             
                             transition: color 0.3s ease, text-decoration-color 0.3s ease; 
@@ -782,11 +774,7 @@ header.navbar-space {
                             text-underline-offset: 12px;
                             color: #fff;
                             background-clip: text; 
-                            background-image: linear-gradient(
-                            to bottom,
-                            rgba(0, 0, 0, 1) 100%,
-                            rgba(0, 0, 0, 1) 100%,
-                            );
+                            background-color: rgba(0, 0, 0, 1);
                             padding: 4px 0px; 
                             
                             transition: color 0.3s ease, text-decoration-color 0.3s ease; 
@@ -1023,11 +1011,7 @@ header.navbar-space {
                             text-underline-offset: 12px;
                             color: #fff;
                             background-clip: text; 
-                            background-image: linear-gradient(
-                            to bottom,
-                            rgba(0, 0, 0, 1) 100%,
-                            rgba(0, 0, 0, 1) 100%,
-                            );
+                            background-color: rgba(0, 0, 0, 1);
                             padding: 4px 0px; 
                             
                             transition: color 0.3s ease, text-decoration-color 0.3s ease; 

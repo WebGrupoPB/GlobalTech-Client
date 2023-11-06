@@ -75,9 +75,9 @@ const Navbar = () => {
                     Inicio
                 </NavLink>
 
-                <NavLink to={'/categorias'} activeClassName="active" onClick={scrollToTop}>  
+                {/* <NavLink to={'/categorias'} activeClassName="active" onClick={scrollToTop}>  
                     Categorías
-                </NavLink>
+                </NavLink> */}
 
                 <NavLink to={'/catalogo'} activeClassName="active" onClick={scrollToTop}>  
                     Catálogo
@@ -105,12 +105,12 @@ const Navbar = () => {
                 <div className='navservice-space'>
 
                 <NavLink to={'/empresas'} activeClassName="active" onClick={scrollToTop} className="btn-11">
-                    Empresas 
+                  Distribuidores 
                 </NavLink>
 
-                <NavLink to={'/servicios'} activeClassName="active" onClick={scrollToTop} className="btn-11">
+                {/* <NavLink to={'/servicios'} activeClassName="active" onClick={scrollToTop} className="btn-11">
                     Servicios                    
-                </NavLink>
+                </NavLink> */}
 
 
                 </div>
@@ -143,9 +143,9 @@ const Navbar = () => {
                         Inicio
                     </NavLink>
 
-                    <NavLink to={'/categorias'} activeClassName="active" onClick={scrollToTop}>  
+                    {/* <NavLink to={'/categorias'} activeClassName="active" onClick={scrollToTop}>  
                         Categorías
-                    </NavLink>
+                    </NavLink> */}
 
                     <NavLink to={'/catalogo'} activeClassName="active" onClick={scrollToTop}>  
                         Catálogo
@@ -173,12 +173,12 @@ const Navbar = () => {
                     <div className='navservice-space'>
 
                     <NavLink to={'/empresas'} activeClassName="active" onClick={scrollToTop} className="btn-11">
-                        Empresas 
+                        Distribuidores
                     </NavLink>
 
-                    <NavLink to={'/servicios'} activeClassName="active" onClick={scrollToTop} className="btn-11">
+                    {/* <NavLink to={'/servicios'} activeClassName="active" onClick={scrollToTop} className="btn-11">
                         Servicios                    
-                    </NavLink>
+                    </NavLink> */}
 
 
                     </div>

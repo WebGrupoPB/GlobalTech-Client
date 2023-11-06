@@ -1,10 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-import Decoradores from '../components/Decoradores';
-import Navbar from '../components/Navbar';
-import Slider from '../components/Slider';
-import Footer from '../components/Footer';
 
 import "./styles/Card.scss"
 
@@ -12,11 +8,12 @@ import "./styles/Card.scss"
 
 
 
-const Card = ({id, text, image}) => {
+const Card = ({id, text, image, category, linkTo}) => {
 
+    const cardClassName = `Card-section${category ? `-for${category}` : ''}`;
 
     return (
-        <Link to={"/catalogo"} target="__blank" className='Card-section'>
+        <Link to={linkTo} target="_blank" className={cardClassName}>
             <aside className='image-card-space'>
                 <img src={image} alt="card-image" />
             </aside>

@@ -99,7 +99,7 @@ const Categorias = () => {
 
 
             <section className='categorias-section'>
-                <CardSection cardInfo={cardInfo} />
+                <CardSection cardInfo={cardInfo}/>
             </section>
             
 
