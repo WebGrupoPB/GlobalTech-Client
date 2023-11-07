@@ -148,12 +148,11 @@ const Home = () => {
                               
                                 <article>
                                   <div>
-                                    <span>@Luis Ernesto Rodas </span>
-
+                                    <span>@Manuel García </span>
+                                    
                                     <p>
-                                      Sus productos son de excelente 
-                                      calidad y el servicio al cliente que
-                                      ofrecen es muy bueno
+                                      Excelente lugar para encontrar todo lo que necesito para mi empresa. 
+                                      ¡Gracias por la atención personalizada!
                                     </p>
                                   </div>                                  
                                 </article>
@@ -168,12 +167,11 @@ const Home = () => {
                               
                                 <article>
                                   <div>
-                                    <span>@Luis Ernesto Rodas </span>
+                                    <span>@Juan Carlos Gómez </span>
                                     
                                     <p>
-                                      Sus productos son de excelente 
-                                      calidad y el servicio al cliente que
-                                      ofrecen es muy bueno
+                                      Los precios son muy competitivos, y la calidad de los productos es insuperable. 
+                                      ¡Totalmente recomendado!
                                     </p>
                                   </div>                                  
                                 </article>
@@ -189,7 +187,7 @@ const Home = () => {
                               <article>
                                 <div>
                                   <span>@Luis Ernesto Rodas </span>
-                                  
+
                                   <p>
                                     Sus productos son de excelente 
                                     calidad y el servicio al cliente que

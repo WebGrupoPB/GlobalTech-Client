@@ -130,7 +130,12 @@ const Navbar = () => {
             </div>
 
             <div className='menuIcon-space'>
-              <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/menuIcon.svg" alt="tuercaIcon" onClick={toggleMenu} />
+              
+              <img 
+                src={menuOpen ? "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/closeMenu-Icon.svg" : "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/menuIcon.svg"}
+                alt="tuercaIcon" 
+                onClick={toggleMenu} />
+
             </div>
 
             {menuOpen && (
