@@ -27,12 +27,29 @@ const containerStyle = {
   height: '75vh'
 };
 
-const center = {
-    lat: 14.8445599,
-    lng: -91.5237950,
+
+const centerElSalvador = {
+  lat: 13.70650,
+  lng: -89.2244000,
 };
 
-const centerGuatemala = {
+const centerHonduras = {
+  lat: 14.0443836,
+  lng: -87.1983321,
+};
+
+const centerNicaragua = {
+  lat: 12.1245925,
+  lng: -86.1882139,
+};
+
+const centerCostaRica = {
+  lat: 9.969012,
+  lng: -84.1182079,
+  
+};
+
+const centerCiudadGuatemala = {
     lat: 14.596199,
     lng: -90.541980,
 };
@@ -53,10 +70,20 @@ function Maps({id}) {
     let centerCoords;
 
     if (id === 0) {
-        centerCoords = centerGuatemala;
+        centerCoords = centerCiudadGuatemala;
     } else if (id === 1) {
         centerCoords = centerXela;
+    } else if (id === 2) {
+      centerCoords = centerElSalvador;
+    } else if (id === 3) {
+      centerCoords = centerHonduras;
+    } else if (id === 4) {
+      centerCoords = centerNicaragua;
+    } else if (id === 5) {
+      centerCoords = centerCostaRica;
     }
+  
+
 
 
   const [map, setMap] = React.useState(null)

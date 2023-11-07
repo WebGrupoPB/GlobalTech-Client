@@ -98,7 +98,7 @@ const Home = () => {
 
         <section className='ubicaciones-section'>
             
-            <Link to={"/ubicaciones"} onClick={scrollToTop} target='__blank' className='overlay-ubicaciones' >
+            <Link to={"/ubicaciones"} onClick={scrollToTop} className='overlay-ubicaciones' >
 
               <div className='text-container'>
                 <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/GPS-icon.svg" alt="gps-icon" />

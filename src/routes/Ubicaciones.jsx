@@ -7,7 +7,7 @@ import Slider from '../components/Slider';
 import Footer from '../components/Footer';
 import CardSection from '../components/CardSection';
 import Maps from '../components/Maps';
-
+import MapButtons from '../components/MapsBttn';
 
 
 import "./styles/Ubicaciones.scss"
@@ -17,32 +17,14 @@ import "./styles/Ubicaciones.scss"
 
 
 const Ubicaciones = () => {
-
-    const [guateUbi, setGuateUbi] = useState(true);
-    const [xelaUbi, setXelaUbi] = useState(false);
-
-
-    const toggleContent = (contentNumber) => {
-        if (contentNumber === 1) {
-            setGuateUbi(true);
-            setXelaUbi(false); // Para ocultar otros contenidos si se hace clic
-        } else if (contentNumber === 2) {
-            setXelaUbi(true);
-            setGuateUbi(false); // Para ocultar otros contenidos si se hace clic
-        }
-    };
-
-
-    let ubicacionRequerida; // Declara una variable para almacenar el resultado
-    let ubicacionText;
-
-    if (guateUbi) {
-        ubicacionRequerida = 0; // Asigna 0 a la variable si guateUbi es verdadero
-        ubicacionText = "Calz. Atanasio Tzul 20-11 Zona 12, Guatemala"
-    } else if (xelaUbi) {
-        ubicacionRequerida = 1; // Asigna 1 a la variable si xelaUbi es verdadero
-        ubicacionText = "4 calle 19-29 zona 3 Quetzaltenango, Guatemala"
-    }
+    const [currentLocation, setCurrentLocation] = useState({
+        ubicacionRequerida: 0,
+        ubicacionText: "Calz. Atanasio Tzul 20-11 Zona 12, Guatemala",
+      });
+    
+      const handleLocationChange = (locationData) => {
+        setCurrentLocation(locationData);
+      };
 
     return (
     <>
@@ -69,35 +51,18 @@ const Ubicaciones = () => {
             <section className='mapUbi-section'>
                 <div className='mapUbi-space'>
                     <header className='filtro-mapUbi-space'>
-                        <div className='btn-filtro-space'>
-                            <button className='btn-filtro btn-11' onClick={() => toggleContent(1)}>
-                                <div>
-                                    <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/GPS-icon.svg" alt="gps-icon" />
-                                </div>
-
-                                <span>
-                                    <p>Guatemala</p>
-                                </span>
-                            </button>
-
-                            <button className='btn-filtro btn-11' onClick={() => toggleContent(2)}>
-                                <div>
-                                    <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/GPS-icon.svg" alt="gps-icon" />
-                                </div>
-
-                                <span>
-                                    <p>Quetzaltenango</p>
-                                </span>
-                            </button>
-                        </div>
+                                            
+                            <MapButtons onLocationChange={handleLocationChange}/>
 
                         <span className='textUbi'>                            
-                            <i>{ubicacionText}</i>    
+                            <i>{currentLocation.ubicacionText}</i>    
                         </span>
                     </header>
 
                     <aside className='googleMaps-mapUbi-space'>
-                        <Maps id={ubicacionRequerida} />
+
+                        <Maps id={currentLocation.ubicacionRequerida} />
+                        
                     </aside>
                 </div>
                 

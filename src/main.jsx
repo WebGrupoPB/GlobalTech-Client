@@ -21,6 +21,7 @@ import Facebook from './components/FacebookIframe.jsx'
 import BtnHover from './components/BtnHover.jsx'
 import Navbar from './components/Navbar.jsx'
 import Maps from './components/Maps.jsx'
+import MapButtons from './components/MapsBttn.jsx'
 
 
 
@@ -54,6 +55,10 @@ import Maps from './components/Maps.jsx'
   {
     path: "/empresas",
     element: <Empresas />,
+  },
+  {
+    path: "/botones",
+    element: <MapButtons />,
   },
 
  ]); 
