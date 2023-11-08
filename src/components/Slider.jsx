@@ -28,9 +28,9 @@ const InfoHeroHome = () => (
               ¡Te invitamos a explorar nuestro catálogo y satisfacer tus necesidades mecánicas con la máxima calidad y variedad, respaldada por 23 años de experiencia en la industria!
             </b>
           </p>
-          {/* <p>
+          <p>
             Ofrecemos los mejores precios del mercado y una atención al cliente excepcional. Descubre la mejor calidad en mecánica con nosotros.
-          </p> */}
+          </p>
         </div>
 
         <aside className='decoration-content'></aside>
