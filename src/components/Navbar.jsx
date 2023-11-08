@@ -108,9 +108,9 @@ const Navbar = () => {
                   Distribuidores 
                 </NavLink>
 
-                {/* <NavLink to={'/servicios'} activeClassName="active" onClick={scrollToTop} className="btn-11">
-                    Servicios                    
-                </NavLink> */}
+                <NavLink to={'/Proyectos'} activeClassName="active" onClick={scrollToTop} className="btn-11">
+                    Proyectos                    
+                </NavLink>
 
 
                 </div>
@@ -181,9 +181,9 @@ const Navbar = () => {
                         Distribuidores
                     </NavLink>
 
-                    {/* <NavLink to={'/servicios'} activeClassName="active" onClick={scrollToTop} className="btn-11">
-                        Servicios                    
-                    </NavLink> */}
+                    <NavLink to={'/proyectos'} activeClassName="active" onClick={scrollToTop} className="btn-11">
+                        Proyectos                   
+                    </NavLink>
 
 
                     </div>

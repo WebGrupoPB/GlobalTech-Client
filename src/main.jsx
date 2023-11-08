@@ -22,6 +22,8 @@ import BtnHover from './components/BtnHover.jsx'
 import Navbar from './components/Navbar.jsx'
 import Maps from './components/Maps.jsx'
 import MapButtons from './components/MapsBttn.jsx'
+import MyGallery from './components/Galeria.jsx'
+
 
 
 
@@ -48,17 +50,13 @@ import MapButtons from './components/MapsBttn.jsx'
     path: "/ubicaciones",
     element: <Ubicaciones />,
   },
-/*   {
-    path: "/servicios",
+  {
+    path: "/proyectos",
     element: <Servicios />,
-  }, */
+  },
   {
     path: "/empresas",
     element: <Empresas />,
-  },
-  {
-    path: "/botones",
-    element: <MapButtons />,
   },
 
  ]); 

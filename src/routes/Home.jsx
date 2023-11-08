@@ -15,6 +15,14 @@ const dataHero = [
       id: 0,
       img: 'https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/Slider1/slider-heroHome1.png',
     },
+    {
+      id: 0,
+      img: 'https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/Slider1/slider-heroHome2.png',
+    },
+    {
+      id: 0,
+      img: 'https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/Slider1/slider-heroHome3.png',
+    },
   ];
 
 
@@ -106,7 +114,7 @@ const Home = () => {
                 <h1>ENCUENTRA TU <span className='span-ubi'>CENTRO DE VENTA</span></h1>
 
                 <p>
-                Selecciona tu <span className='span-ubi'>ubicación</span> y filtra tu <span className='span-ubi'>centro de venta</span> más cercana
+                Selecciona tu <span className='span-ubi'>ubicación</span> y filtra tu <span className='span-ubi'>centro de venta</span> más cercano
                 de acuerdo a tus necesidades.
                 </p>
               </div>

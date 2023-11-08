@@ -26,7 +26,7 @@ const cardInfo2 = [
     {
         id: 2,
         text: "QRED",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/Qred-logo.jpeg",
+        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/Qred-logo.png",
     },
     {
         id: 3,

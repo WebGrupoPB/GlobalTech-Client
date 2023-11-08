@@ -87,8 +87,13 @@ header.navbar-space {
                 font-weight: 500;
                 
 
-                &.hover{
-                    color: #fff;
+                &:hover{
+                    text-decoration: underline;
+                    text-decoration-color: rgb(0, 0, 0) !important;
+                    text-decoration-thickness: 4px;
+                    text-decoration-line: underline;
+                    text-underline-offset: 12px;
+                    transition: text-decoration-color 0.3s ease; 
                 }
                 
                 &.active {
@@ -99,10 +104,10 @@ header.navbar-space {
                     text-underline-offset: 12px;
                     color: #fff;
                     background-clip: text; 
-                    background-color: rgba(0, 0, 0, 1);
+                    background: rgba(0, 0, 0, 1) !important;
                     padding: 4px 0px; 
                     
-                    transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+                    transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease; 
                   }
             }
         }
@@ -167,9 +172,9 @@ header.navbar-space {
                         text-underline-offset: 8px;
                         color: #fff;
                         background-clip: text; 
-                        background-color: rgba(0, 0, 0, 1); 
+                        background: rgba(0, 0, 0, 1) !important; 
                         
-                        transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+                        transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease;  
                       }
 
                     
@@ -531,10 +536,10 @@ header.navbar-space {
                             text-underline-offset: 20px;
                             color: #fff;
                             background-clip: text; 
-                            background-color: rgba(0, 0, 0, 1);
+                            background: rgba(0, 0, 0, 1) !important;
                             padding: 4px 12px; 
-                            
-                            transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+
+                            transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease; 
                         }
                     }
                 }
@@ -602,13 +607,11 @@ header.navbar-space {
                                 text-underline-offset: 8px;
                                 color: #fff;
                                 background-clip: text; 
-                                background-image: linear-gradient(
-                                to bottom,
-                                rgba(0, 0, 0, 1) 100%,
-                                rgba(0, 0, 0, 1) 100%
-                                ); 
+                                background-clip: text; 
+                                background: rgba(0, 0, 0, 1) !important;
+                                padding: 4px 12px; 
                                 
-                                transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+                                transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease;  
                             }
         
                             
@@ -768,10 +771,10 @@ header.navbar-space {
                             text-underline-offset: 12px;
                             color: #fff;
                             background-clip: text; 
-                            background-color: rgba(0, 0, 0, 1);
-                            padding: 4px 0px; 
+                            background: rgba(0, 0, 0, 1) !important;
+                            padding: 4px 12px; 
                             
-                            transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+                            transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease;  
                         }
                     }
                 }
@@ -839,13 +842,10 @@ header.navbar-space {
                                 text-underline-offset: 8px;
                                 color: #fff;
                                 background-clip: text; 
-                                background-image: linear-gradient(
-                                to bottom,
-                                rgba(0, 0, 0, 1) 100%,
-                                rgba(0, 0, 0, 1) 100%
-                                ); 
+                                background: rgba(0, 0, 0, 1) !important;
+                                padding: 4px 12px; 
                                 
-                                transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+                                transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease;  
                             }
         
                             
@@ -1002,13 +1002,13 @@ header.navbar-space {
                             text-decoration-color: rgb(0, 0, 0) !important;
                             text-decoration-thickness: 4px;
                             text-decoration-line: underline;
-                            text-underline-offset: 12px;
+                            text-underline-offset: 14px;
                             color: #fff;
                             background-clip: text; 
-                            background-color: rgba(0, 0, 0, 1);
-                            padding: 4px 0px; 
+                            background: rgba(0, 0, 0, 1) !important;
+                            padding: 4px 4px;  
                             
-                            transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+                            transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease;  
                         }
                     }
                 }
@@ -1076,13 +1076,10 @@ header.navbar-space {
                                 text-underline-offset: 8px;
                                 color: #fff;
                                 background-clip: text; 
-                                background-image: linear-gradient(
-                                to bottom,
-                                rgba(0, 0, 0, 1) 100%,
-                                rgba(0, 0, 0, 1) 100%
-                                ); 
+                                background: rgba(0, 0, 0, 1) !important;
+                                padding: 4px 4px; 
                                 
-                                transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+                                transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease;  
                             }
         
                             

@@ -17,10 +17,20 @@ const InfoHeroHome = () => (
         
         <div className='parrafo-content'>
           <p>
-            Nos complace recibirles en nuestro espacio dedicado a todo lo relacionado con el mundo de la mecánica. 
-            Aquí encontrarán una amplia gama de productos que satisfacen las necesidades de entusiastas, profesionales 
-            y aficionados del mundo automotriz.
+            En nuestro espacio, celebramos el apasionante mundo de la mecánica.
           </p>
+          <p>
+            Descubre la amplia gama de productos que ofrecemos, desde herramientas y repuestos hasta accesorios y equipo de alta calidad.
+            Atendemos la demanda ya sea de entusiastas del automovilismo, mecánicos profesionales o aficionados.
+          </p>
+          <p>
+            <b>
+              ¡Te invitamos a explorar nuestro catálogo y satisfacer tus necesidades mecánicas con la máxima calidad y variedad, respaldada por 23 años de experiencia en la industria!
+            </b>
+          </p>
+          {/* <p>
+            Ofrecemos los mejores precios del mercado y una atención al cliente excepcional. Descubre la mejor calidad en mecánica con nosotros.
+          </p> */}
         </div>
 
         <aside className='decoration-content'></aside>
@@ -157,7 +167,7 @@ const Slider = ({ dataSlider, panelInfo }) => {
     const interval = setInterval(() => {
       const nextID = (activeID + 1) % dataSlider.length;
       changeActive(nextID);
-    }, 7000); 
+    }, 5000); 
 
     return () => {
       clearInterval(interval); 
