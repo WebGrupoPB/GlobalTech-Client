@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 
 import Decoradores from '../components/Decoradores';
@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Slider from '../components/Slider';
 import Footer from '../components/Footer';
 import Facebook from '../components/FacebookIframe';
+import Formulario from '../components/Formulario';
 
 import "./styles/Home.scss"
 
@@ -138,12 +139,7 @@ const Home = () => {
                               </div>
 
                               <div className='contact-form-space'>
-                                  <form className='formDiv' action="">
-                                      <input name='name' type="text" placeholder='nombre' />
-                                      <input name='email' type='email' placeholder='correo' />
-                                      <textarea name="message" id="" cols="30" rows="10" placeholder=' mensaje'></textarea>
-                                      <button type='submit' className="btn-11">Enviar</button>
-                                  </form>
+                                  <Formulario />
                               </div>
                           </div> 
 
