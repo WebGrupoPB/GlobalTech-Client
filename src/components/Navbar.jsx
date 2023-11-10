@@ -11,6 +11,8 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef(null);
 
+  const menuIcon = menuOpen ? "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/closeMenu-Icon.svg" : "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/openMenu-.svg"
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -132,7 +134,7 @@ const Navbar = () => {
             <div className='menuIcon-space'>
               
               <img 
-                src={menuOpen ? "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/closeMenu-Icon.svg" : "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/General/menuIcon.svg"}
+                src={menuIcon}
                 alt="tuercaIcon" 
                 onClick={toggleMenu} />
 

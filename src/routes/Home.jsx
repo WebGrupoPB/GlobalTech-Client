@@ -62,11 +62,11 @@ const Home = () => {
 
               <div className='promocion1-textcontent'>
                 <div>
-                  <p>-  Ancho total : 3.23 mt</p>
-                  <p>-  Longitud total : 5.69 mt</p>
-                  <p>-  Altura de columnas : 2.24 mt</p>
-                  <p>-  Altura máxima : 1.78 mt</p>
-                  <p>-  Ancho entre columnas : 2.97 mt</p>
+                  <p>-  Ancho total : 3.23 m</p>
+                  <p>-  Longitud total : 5.69 m</p>
+                  <p>-  Altura de columnas : 2.24 m</p>
+                  <p>-  Altura máxima : 1.78 m</p>
+                  <p>-  Ancho entre columnas : 2.97 m</p>
                 </div>
                 
                 <Link to={"/catalogo"} onClick={scrollToTop} className="btn-11">
@@ -208,8 +208,10 @@ const Home = () => {
                             <div>
                                 <h1>Facebook</h1>
                             </div>
-                            
-                            <Facebook />
+
+                            <Link to={"https://www.facebook.com/globaltechla"} target='_blank'>
+                              <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/facebook-img.png" alt="facebook-img" />
+                            </Link>
                         </aside>
                     </div>
                     

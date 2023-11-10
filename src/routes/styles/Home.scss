@@ -585,14 +585,16 @@ section.hero-space {
         height: 100%; 
         
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        align-items: start;
+        justify-content: center;
 
         div {
           /* background-color: #E1071E; */
           width: 20%;
           height: 100%;
-          margin-left: 1vw;
+          
+          position: relative;
+          right: 1vw;
       
           display: flex;
           align-items: center;
@@ -602,17 +604,25 @@ section.hero-space {
           h1 {
             color: #fff;
             transform: rotate(-90deg);
-            font-size: 3rem;     
+            font-size: 4rem;     
           }
         }
   
-        img {
+        a {
+          width: 15vw;
+          height: 82vh;
+          margin-left: 3vw;
+
+          display: flex;
+          align-items: end;
+          justify-content: center;
+
+          img {
             width: auto;
-            height: 100%;
+            height: 82vh;
+          } 
         }
-    }
-    
-    
+    }    
   } 
 }
 
@@ -843,37 +853,49 @@ section.hero-space {
     }
     
     aside.facebook-space {
-        background-color: #323232;
-        width: 30vw;
-        height: 100%; 
+      background-color: #323232;
+      width: 30vw;
+      height: 100%; 
+      
+      display: flex;
+      align-items: start;
+      justify-content: center;
+
+      div {
+        /* background-color: #E1071E; */
+        width: 20%;
+        height: 100%;
         
+        position: relative;
+        right: 1vw;
+    
         display: flex;
         align-items: center;
-        justify-content: space-between;
-
-        div {
-          /* background-color: #E1071E; */
-          width: 20%;
-          height: 100%;
-          margin-left: 1vw;
-      
-          display: flex;
-          align-items: center;
-          justify-content: center;
+        justify-content: center;
 
 
-          h1 {
-            color: #fff;
-            transform: rotate(-90deg);
-            font-size: 6rem;     
-          }
+        h1 {
+          color: #fff;
+          transform: rotate(-90deg);
+          font-size: 6rem;     
         }
+      }
+
+      a {
+        width: 15vw;
+        height: 82vh;
+        margin-left: 3vw;
+
+        display: flex;
+        align-items: end;
+        justify-content: center;
 
         img {
-            width: auto;
-            height: 100%;
-        }
-    }
+          width: auto;
+          height: 82vh;
+        } 
+      }
+  }
     
     
   } 
@@ -1258,39 +1280,49 @@ section.hero-space {
     }
     
     aside.facebook-space {
-        background-color: #323232;
-        width: 30vw;
-        height: 100%; 
+      background-color: #323232;
+      width: 30vw;
+      height: 100%; 
+      
+      display: flex;
+      align-items: start;
+      justify-content: center;
+
+      div {
+        /* background-color: #E1071E; */
+        width: 20%;
+        height: 100%;
         
+        position: relative;
+        right: 2vw;
+    
         display: flex;
         align-items: center;
-        justify-content: space-between;
-
-        div {
-          /* background-color: #E1071E; */
-          width: 20%;
-          height: 100%;
-          margin-left: 1vw;
-      
-          display: flex;
-          align-items: center;
-          justify-content: center;
+        justify-content: center;
 
 
-          h1 {
-            color: #fff;
-            transform: rotate(-90deg);
-            font-size: 2.75rem;     
-          }
+        h1 {
+          color: #fff;
+          transform: rotate(-90deg);
+          font-size: 3rem;     
         }
+      }
+
+      a {
+        width: 15vw;
+        height: 82vh;
+        margin-left: 3vw;
+
+        display: flex;
+        align-items: end;
+        justify-content: center;
 
         img {
-            width: auto;
-            height: 100%;
-        }
-    }
-    
-    
+          width: auto;
+          height: 82vh;
+        } 
+      }
+  }
   } 
   }
 }
@@ -1899,7 +1931,9 @@ section.contacto-section {
         /* background-color: #E1071E; */
         width: 20%;
         height: 100%;
-        margin-left: 1vw;
+        
+        position: relative;
+        right: -1vw;
     
         display: flex;
         align-items: center;
@@ -1909,13 +1943,24 @@ section.contacto-section {
         h1 {
           color: #fff;
           transform: rotate(-90deg);
-          font-size: 3rem;     
+          font-size: 4rem;     
         }
       }
 
-      img {
+      a {
+        width: 15vw;
+        height: 45vh;
+        margin-left: 0vw;
+        margin-right: 10vw;
+
+        display: flex;
+        align-items: end;
+        justify-content: center;
+
+        img {
           width: auto;
-          height: 100%;
+          height: 45vh;
+        } 
       }
   }
   
@@ -2527,7 +2572,9 @@ section.contacto-section {
           /* background-color: #E1071E; */
           width: 20%;
           height: 100%;
-          margin-left: 1vw;
+          
+          position: relative;
+          right: -1vw;
       
           display: flex;
           align-items: center;
@@ -2541,9 +2588,20 @@ section.contacto-section {
           }
         }
   
-        img {
+        a {
+          width: 15vw;
+          height: 60vh;
+          margin-left: 0vw;
+          margin-right: 20vw;
+  
+          display: flex;
+          align-items: end;
+          justify-content: center;
+  
+          img {
             width: auto;
-            height: 100%;
+            height: 60vh;
+          } 
         }
       } 
     } 
@@ -3154,7 +3212,9 @@ section.contacto-section {
           /* background-color: #E1071E; */
           width: 20%;
           height: 100%;
-          margin-left: 1vw;
+          
+          position: relative;
+          right: -1vw;
       
           display: flex;
           align-items: center;
@@ -3164,13 +3224,24 @@ section.contacto-section {
           h1 {
             color: #fff;
             transform: rotate(-90deg);
-            font-size: 3rem;     
+            font-size: 2rem;     
           }
         }
   
-        img {
+        a {
+          width: 15vw;
+          height: 60vh;
+          margin-left: 0vw;
+          margin-right: 20vw;
+  
+          display: flex;
+          align-items: end;
+          justify-content: center;
+  
+          img {
             width: auto;
-            height: 100%;
+            height: 60vh;
+          } 
         }
       } 
     } 

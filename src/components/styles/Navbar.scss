@@ -183,7 +183,7 @@ header.navbar-space {
                 
 
                 a:first-child { 
-                    width: 9vw;
+                    width: 11vw;
                     height: 7vh;
                     border: 1px solid #000;
 
@@ -193,7 +193,7 @@ header.navbar-space {
                 }
 
                 a:last-child { 
-                    width: 15vw;
+                    width: 11vw;
                     height: 7vh;
                     border: 1px solid #000;
 
@@ -285,24 +285,24 @@ header.navbar-space {
                
 
                a:first-child { 
-                   width: 9vw;
-                   height: 7vh;
-                   border: 2px solid #000;
+                width: 11vw;
+                height: 7vh;
+                border: 1px solid #000;
 
-                   /* &:hover{
-                       color: #fff;
-                   } */
-               }
+                /* &:hover{
+                    color: #fff;
+                } */
+                }
 
-               a:last-child { 
-                   width: 15vw;
-                   height: 7vh;
-                   border: 2px solid #000;
+                a:last-child { 
+                    width: 11vw;
+                    height: 7vh;
+                    border: 1px solid #000;
 
-                   /* &:hover{
-                       color: #fff;
-                   } */
-               }
+                    /* &:hover{
+                        color: #fff;
+                    } */
+                }
            }
        }
        }
@@ -384,24 +384,24 @@ header.navbar-space {
                    
     
                    a:first-child { 
-                       width: 9vw;
-                       height: 7vh;
-                       border: 1px solid #000;
-    
-                       /* &:hover{
-                           color: #fff;
-                       } */
-                   }
-    
-                   a:last-child { 
-                       width: 15vw;
-                       height: 7vh;
-                       border: 1px solid #000;
-    
-                       /* &:hover{
-                           color: #fff;
-                       } */
-                   }
+                        width: 11vw;
+                        height: 7vh;
+                        border: 1px solid #000;
+
+                        /* &:hover{
+                            color: #fff;
+                        } */
+                    }
+
+                    a:last-child { 
+                        width: 11vw;
+                        height: 7vh;
+                        border: 1px solid #000;
+
+                        /* &:hover{
+                            color: #fff;
+                        } */
+                    }
                }
            }
            }
@@ -608,8 +608,7 @@ header.navbar-space {
                                 color: #fff;
                                 background-clip: text; 
                                 background-clip: text; 
-                                background: rgba(0, 0, 0, 1) !important;
-                                padding: 4px 12px; 
+                                background: rgba(0, 0, 0, 1) !important; 
                                 
                                 transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease;  
                             }
@@ -618,9 +617,9 @@ header.navbar-space {
                         }
         
                         a:first-child { 
-                            width: 24vw;
+                            width: 28vw;
                             height: 7vh;
-                            border: 2px solid #000;
+                            border: 1px solid #000;
         
                             /* &:hover{
                                 color: #fff;
@@ -628,9 +627,9 @@ header.navbar-space {
                         }
         
                         a:last-child { 
-                            width: 30vw;
+                            width: 28vw;
                             height: 7vh;
-                            border: 2px solid #000;
+                            border: 1px solid #000;
         
                             /* &:hover{
                                 color: #fff;
@@ -717,7 +716,7 @@ header.navbar-space {
                 justify-content: end;
 
                 img {
-                    width: 9vw;
+                    width: 12vw;
                     height: auto;
                 }
             }
@@ -843,7 +842,7 @@ header.navbar-space {
                                 color: #fff;
                                 background-clip: text; 
                                 background: rgba(0, 0, 0, 1) !important;
-                                padding: 4px 12px; 
+                                
                                 
                                 transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease;  
                             }
@@ -852,7 +851,7 @@ header.navbar-space {
                         }
         
                         a:first-child { 
-                            width: 27vw;
+                            width: 33vw;
                             height: 7vh;
                             border: 1px solid #000;
         
@@ -951,7 +950,7 @@ header.navbar-space {
                 justify-content: end;
 
                 img {
-                    width: 9vw;
+                    width: 12vw;
                     height: auto;
                 }
             }
@@ -1076,8 +1075,7 @@ header.navbar-space {
                                 text-underline-offset: 8px;
                                 color: #fff;
                                 background-clip: text; 
-                                background: rgba(0, 0, 0, 1) !important;
-                                padding: 4px 4px; 
+                                background: rgba(0, 0, 0, 1) !important; 
                                 
                                 transition: color 0.3s ease, background-color 0.3s ease, text-decoration-color 0.3s ease;  
                             }
@@ -1086,7 +1084,7 @@ header.navbar-space {
                         }
         
                         a:first-child { 
-                            width: 30vw;
+                            width: 33vw;
                             height: 7vh;
                             border: 1px solid #000;
         
@@ -1096,7 +1094,7 @@ header.navbar-space {
                         }
         
                         a:last-child { 
-                            width: 35vw;
+                            width: 33vw;
                             height: 7vh;
                             border: 1px solid #000;
         

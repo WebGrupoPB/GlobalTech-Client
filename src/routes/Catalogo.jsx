@@ -86,7 +86,7 @@ const Catalogo = () => {
                     </div>
 
                     <div className='promocion3-imagecontent-space'>
-                        <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/image-promociones-catalogo.png" alt="imagen-montacarga" />
+                        <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Catalogo/imagen-promociones-catalogo.png" alt="imagen-montacarga" />
                     </div>
                 </div>
             </section>
