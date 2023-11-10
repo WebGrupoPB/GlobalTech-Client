@@ -34,11 +34,11 @@ const cardInfo2 = [
         imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/Hyva-logo.png",
         link: "https://www.hyva.com/es-es/",
     },
-    {
+    /* {
         id: 4,
         text: "THINKCAR",
         imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/thinkcar-logo.png",
-    },
+    }, */
     {
         id: 5,
         text: "ALEMITE",
@@ -69,7 +69,7 @@ const cardInfo2 = [
     {
         id: 10,
         text: "COMEC",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/comec-logo.jpeg",
+        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/comec-logo.png",
     },
     {
         id: 11,
@@ -101,12 +101,12 @@ const cardInfo2 = [
     {
         id: 16,
         text: "SCHUMACHER",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/Schumacher-logo.jpeg",
+        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/Schumacher-logo.png",
     },
     {
         id: 17,
         text: "RJW",
-        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/RJW-logo.jpeg",
+        imageURL: "https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Empresas/logosEmpresas-Global/RJW-logo.png",
         link: "https://www.rjwest.ca/",
     },
     {
