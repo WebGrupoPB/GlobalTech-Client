@@ -25,7 +25,7 @@ const InfoHeroHome = () => (
           </p>
           <p>
             <b>
-              ¡Te invitamos a explorar nuestro catálogo y satisfacer tus necesidades mecánicas con la máxima calidad y variedad, respaldada por 23 años de experiencia en la industria!
+              ¡Te invitamos a explorar nuestro catálogo y satisfacer tus necesidades de equipo y herramientas con la máxima calidad y variedad, respaldada por más de 23 años de experiencia en la industria!
             </b>
           </p>
           <p>
