@@ -12,7 +12,7 @@ const InfoHeroHome = () => (
       <div className='infoHeroHome-content'>
 
         <div className='title-content'>
-          <h1>TIENDA DE ARTÍCULOS MECÁNICOS</h1>
+          <h1>Tienda de Equipos y Herramientas Automotrices</h1>
         </div>
         
         <div className='parrafo-content'>

@@ -151,7 +151,7 @@ const Empresas = () => {
 
             <section className='hero-space-2-categorias' id="hero-space">
                 <div className='hero-banner'>
-                    <h1>Marcas</h1>
+                    <h1><span>Nuestras</span> Marcas</h1>
                 </div>
             </section>
 

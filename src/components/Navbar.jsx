@@ -107,7 +107,7 @@ const Navbar = () => {
                 <div className='navservice-space'>
 
                 <NavLink to={'/empresas'} activeClassName="active" onClick={scrollToTop} className="btn-11">
-                  Marcas 
+                  Nuestras Marcas 
                 </NavLink>
 
                 <NavLink to={'/Proyectos'} activeClassName="active" onClick={scrollToTop} className="btn-11">
