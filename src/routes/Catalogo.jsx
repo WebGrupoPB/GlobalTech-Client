@@ -54,7 +54,7 @@ const Catalogo = () => {
                             bottom: 0,
                             backgroundColor: '#CDD1D4' // Cambia el color de fondo aquí
                             }}
-                            src="https://e.issuu.com/embed.html?backgroundColor=%23CDD1D4&backgroundColorFullscreen=%23CDD1D4&d=prototipo_global_tech_-2&hideIssuuLogo=true&showOtherPublicationsAsSuggestions=true&u=mercadeo-gpb"                       
+                            src="https://e.issuu.com/embed.html?d=cata_logo_global_tech&u=mercadeo-gpb"                      
                         >
                         </iframe>
 

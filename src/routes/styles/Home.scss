@@ -1463,15 +1463,15 @@ section.baner-promocion1 {
       z-index: 1;
 
       position: relative;
-      overflow: hidden;
+      /* overflow: hidden; */
 
       img {
-        width: 80vw;
+        width: 70vw;
         height: auto;
 
         position: absolute;
         bottom: -2vh;
-        right: -22vw;
+        right: 0vw;
       }
     }
 
@@ -2052,7 +2052,7 @@ section.contacto-section {
   
         div.promocion1-textcontent {
           background-color: transparent;
-          width: 50vw;
+          width: 55vw;
           height: 60%;
           margin-top: 10vh;
           margin-left: 2vw;
@@ -2082,7 +2082,7 @@ section.contacto-section {
   
             width: 25vw;
             height: 8vh;
-            margin-bottom: 5vh;
+            margin-bottom: 10vh;
   
             display: grid;
             place-items: center;
@@ -2108,7 +2108,7 @@ section.contacto-section {
         z-index: 1;
   
         position: relative;
-        overflow: hidden;
+        overflow: visible;
   
         img {
           width: 80vw;
@@ -2116,7 +2116,7 @@ section.contacto-section {
   
           position: absolute;
           bottom: 0vh;
-          right: -22vw;
+          right: 0vw;
         }
       }
     }
@@ -2722,7 +2722,7 @@ section.contacto-section {
   
             width: 35vw;
             height: 8vh;
-            margin-bottom: 5vh;
+            margin-bottom: 12vh;
   
             display: grid;
             place-items: center;
@@ -2748,7 +2748,7 @@ section.contacto-section {
         z-index: 1;
   
         position: relative;
-        overflow: hidden;
+        overflow: visible;
   
         img {
           width: 80vw;
@@ -2756,7 +2756,7 @@ section.contacto-section {
   
           position: absolute;
           bottom: 0vh;
-          right: -22vw;
+          right: 0vw;
         }
       }
     }

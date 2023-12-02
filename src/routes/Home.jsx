@@ -62,11 +62,11 @@ const Home = () => {
 
               <div className='promocion1-textcontent'>
                 <div>
-                  <p>-  Ancho total : 3.23 m</p>
-                  <p>-  Longitud total : 5.69 m</p>
-                  <p>-  Altura de columnas : 2.24 m</p>
-                  <p>-  Altura máxima : 1.78 m</p>
-                  <p>-  Ancho entre columnas : 2.97 m</p>
+                  <p>-  CAPACIDAD : 9000 lb</p>
+                  <p>-  ALTURA MAX : 1.90 m</p>
+                  <p>-  ALIMENTACIÓN : 220 V</p>
+                  <p>-  PESO DE EMPAQUE : 1290 kg</p>
+                  
                 </div>
                 
                 <Link to={"/catalogo"} onClick={scrollToTop} className="btn-11">
@@ -76,7 +76,7 @@ const Home = () => {
             </div>
 
             <div className='promocion1-imagecontent-space'>
-              <img src="https://s3.amazonaws.com/globaltech.la/Recursos+GlobalTech/Home/image-promociones1.png" alt="imagen-montacarga" />
+              <img src="https://eyf5gqdcwsg.exactdn.com/wp-content/uploads/2020/07/TLT_445_W.png?lossy=0&quality=92&webp=90&ssl=1" alt="imagen-montacarga" />
             </div>
           </div>
         </section>

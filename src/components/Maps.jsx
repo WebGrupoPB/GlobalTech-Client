@@ -44,8 +44,8 @@ const centerNicaragua = {
 };
 
 const centerCostaRica = {
-  lat: 9.969012,
-  lng: -84.1182079,
+  lat: 9.968800,
+  lng: -84.1181000,
   
 };
 

@@ -40,7 +40,7 @@ const MapButtons = ({ onLocationChange }) => {
             // Llama a onLocationChange para enviar los datos al componente padre
             onLocationChange({
                 ubicacionRequerida: 2,
-                ubicacionText: "Prolongación Alameda Juan Pablo II, #377 Bodegas San Jorge Sur, El Salvador",
+                ubicacionText: "Prolongación Alameda Juan Pablo II, #377 Bodegas San Jorge Sur, Bodega #8, El Salvador",
         });
         } else if (contentNumber === 4) {
             setGuateUbi(false);
@@ -64,7 +64,7 @@ const MapButtons = ({ onLocationChange }) => {
             // Llama a onLocationChange para enviar los datos al componente padre
             onLocationChange({
                 ubicacionRequerida: 5,
-                ubicacionText: "Ofibodegas La Valencia, Ruta 20 Santo Domingo de Heredia, Costa Rica",
+                ubicacionText: "Complejo de Bodegas Emanuel Heredia, Costa Rica",
         });
         }
         
