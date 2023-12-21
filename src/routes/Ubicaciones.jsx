@@ -20,6 +20,7 @@ const Ubicaciones = () => {
     const [currentLocation, setCurrentLocation] = useState({
         ubicacionRequerida: 0,
         ubicacionText: "Calz. Atanasio Tzul 20-11 Zona 12, Guatemala",
+        ubicacionPhone: "PBX: (+502) 2247-3333",
       });
     
       const handleLocationChange = (locationData) => {
@@ -54,8 +55,11 @@ const Ubicaciones = () => {
                                             
                             <MapButtons onLocationChange={handleLocationChange}/>
 
-                        <span className='textUbi'>                            
-                            <i>{currentLocation.ubicacionText}</i>    
+                        <span className='textUbi'> 
+                                                      
+                            <i>{currentLocation.ubicacionText}</i>  
+                            <i> - {currentLocation.ubicacionPhone}</i> 
+
                         </span>
                     </header>
 

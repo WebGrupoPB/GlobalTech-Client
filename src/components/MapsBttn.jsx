@@ -25,6 +25,7 @@ const MapButtons = ({ onLocationChange }) => {
             onLocationChange({
                 ubicacionRequerida: 0,
                 ubicacionText: "Calz. Atanasio Tzul 20-11 Zona 12, Guatemala",
+                ubicacionPhone: "PBX: (+502) 2247-3333",
         });
         } else if (contentNumber === 2) {
             setGuateUbi(true);
@@ -33,6 +34,7 @@ const MapButtons = ({ onLocationChange }) => {
             onLocationChange({
                 ubicacionRequerida: 1,
                 ubicacionText: "4 calle 19-29 zona 3 Quetzaltenango, Guatemala",
+                ubicacionPhone: "PBX: (+502) 2247-3333",
         });
         } else if (contentNumber === 3) {
             setGuateUbi(false);
@@ -41,6 +43,7 @@ const MapButtons = ({ onLocationChange }) => {
             onLocationChange({
                 ubicacionRequerida: 2,
                 ubicacionText: "Prolongación Alameda Juan Pablo II, #377 Bodegas San Jorge Sur, Bodega #8, El Salvador",
+                ubicacionPhone: "PBX  (+503) 2113-6699",
         });
         } else if (contentNumber === 4) {
             setGuateUbi(false);
@@ -49,6 +52,8 @@ const MapButtons = ({ onLocationChange }) => {
             onLocationChange({
                 ubicacionRequerida: 3,
                 ubicacionText: "Anillo Periférico Sur Aldea Loarque contiguo a Embotelladora La Reyna, Tegucigalpa, Honduras",
+                ubicacionPhone: "PBX: (504) 2262-1800",
+
         });
         } else if (contentNumber === 5) {
             setGuateUbi(false);
@@ -57,6 +62,7 @@ const MapButtons = ({ onLocationChange }) => {
             onLocationChange({
                 ubicacionRequerida: 4,
                 ubicacionText: "Parque Industrial Fernández Sera, Bodega #3. Managua, Nicaragua",
+                ubicacionPhone: "PBX: (+505) 2233 0603",
         });
         } else if (contentNumber === 6) {
             setGuateUbi(false);
@@ -65,6 +71,7 @@ const MapButtons = ({ onLocationChange }) => {
             onLocationChange({
                 ubicacionRequerida: 5,
                 ubicacionText: "Complejo de Bodegas Emanuel Heredia, Costa Rica",
+                ubicacionPhone: "PBX: (+506) 70190535",
         });
         }      
     };
