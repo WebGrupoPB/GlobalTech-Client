@@ -66,8 +66,7 @@ const MapButtons = ({ onLocationChange }) => {
                 ubicacionRequerida: 5,
                 ubicacionText: "Complejo de Bodegas Emanuel Heredia, Costa Rica",
         });
-        }
-        
+        }      
     };
 
     return (
